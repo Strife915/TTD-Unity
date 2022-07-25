@@ -11,19 +11,34 @@ namespace Unity.TDD.PlayModeTest
 {
     public class player_movement
     {
-        // A Test behaves as an ordinary method
-        [Test]
-        public void move_10_meters_right_not_equal_start_position()
+        IPlayerController GetPlayer()
         {
-            //Arrange
             IPlayerController playerController = Substitute.For<IPlayerController>();
             GameObject gameObject = new GameObject();
             playerController.Transform.Returns(gameObject.transform);
             playerController.InputReader = Substitute.For<IInputReader>();
+
+            return playerController;
+        }
+
+        IMover GetMoverWithTranslate(IPlayerController playerController)
+        {
             IMover mover = new PlayerMoveWithTranslate(playerController);
+            return mover;
+        }
+
+        // A Test behaves as an ordinary method
+        [Test]
+        [TestCase(1f)]
+        [TestCase(-1f)]
+        public void move_10_meters_right_not_equal_start_position(float horizontalInputValue)
+        {
+            //Arrange
+            var playerController = GetPlayer();
+            var mover = GetMoverWithTranslate(playerController);
             Vector3 startPosition = playerController.Transform.position;
             //Act
-            playerController.InputReader.Horizontal.Returns(1f);
+            playerController.InputReader.Horizontal.Returns(horizontalInputValue);
             for (int i = 0; i < 10; i++)
             {
                 mover.Tick();
@@ -38,11 +53,8 @@ namespace Unity.TDD.PlayModeTest
         public void move_10_meters_right_end_position_greater_than_start_position()
         {
             //Arrange
-            IPlayerController playerController = Substitute.For<IPlayerController>();
-            GameObject gameObject = new GameObject();
-            playerController.Transform.Returns(gameObject.transform);
-            playerController.InputReader = Substitute.For<IInputReader>();
-            IMover mover = new PlayerMoveWithTranslate(playerController);
+            var playerController = GetPlayer();
+            var mover = GetMoverWithTranslate(playerController);
             Vector3 startPosition = playerController.Transform.position;
             //Act
             playerController.InputReader.Horizontal.Returns(1f);
@@ -57,36 +69,11 @@ namespace Unity.TDD.PlayModeTest
         }
 
         [Test]
-        public void move_10_meters_left_not_equal_start_position()
-        {
-            //Arrange
-            IPlayerController playerController = Substitute.For<IPlayerController>();
-            GameObject gameObject = new GameObject();
-            playerController.Transform.Returns(gameObject.transform);
-            playerController.InputReader = Substitute.For<IInputReader>();
-            IMover mover = new PlayerMoveWithTranslate(playerController);
-            Vector3 startPosition = playerController.Transform.position;
-            //Act
-            playerController.InputReader.Horizontal.Returns(-1f);
-            for (int i = 0; i < 10; i++)
-            {
-                mover.Tick();
-                mover.FixedTick();
-            }
-
-            //Assert
-            Assert.AreNotEqual(startPosition, playerController.Transform.position);
-        }
-
-        [Test]
         public void move_10_meters_left_end_position_less_than_start_position()
         {
             //Arrange
-            IPlayerController playerController = Substitute.For<IPlayerController>();
-            GameObject gameObject = new GameObject();
-            playerController.Transform.Returns(gameObject.transform);
-            playerController.InputReader = Substitute.For<IInputReader>();
-            IMover mover = new PlayerMoveWithTranslate(playerController);
+            var playerController = GetPlayer();
+            IMover mover = GetMoverWithTranslate(playerController);
             Vector3 startPosition = playerController.Transform.position;
             //Act
             playerController.InputReader.Horizontal.Returns(-1f);
