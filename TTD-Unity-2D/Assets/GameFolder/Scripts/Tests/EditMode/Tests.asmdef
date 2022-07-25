@@ -4,7 +4,8 @@
     "references": [
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner",
-        "Unity_TDD_Concrete"
+        "Unity_TDD_Concrete",
+        "Unity.TDD.Abstract"
     ],
     "includePlatforms": [
         "Editor"

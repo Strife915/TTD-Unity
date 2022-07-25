@@ -1,2 +1,2 @@
-# Starting compiling PlayMode.dll
-C:\Users\Menethil\Desktop\UnityProjects\2020.3.34f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-eb7d4cbd49e2688479cab44edcfa9a27
+# Starting compiling Unity_TDD_Concrete.dll
+C:\Users\Menethil\Desktop\UnityProjects\2020.3.34f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-e34d58588f70b38408124ee2380d7ad7
