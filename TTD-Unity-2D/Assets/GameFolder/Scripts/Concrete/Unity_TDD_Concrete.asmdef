@@ -1,0 +1,16 @@
+{
+    "name": "Unity_TDD_Concrete",
+    "rootNamespace": "",
+    "references": [
+        "GUID:f0148cf8fa724d94e8451dc0f3d86bde"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

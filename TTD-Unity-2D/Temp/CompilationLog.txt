@@ -1,2 +1,2 @@
-# Starting compiling Assembly-CSharp.dll
-C:\Users\Menethil\Desktop\UnityProjects\2020.3.34f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-f72e2efa43e56564fa253b1fed1197e5
+# Starting compiling PlayMode.dll
+C:\Users\Menethil\Desktop\UnityProjects\2020.3.34f1\Editor\Data\Tools\RoslynScripts\unity_csc.bat /noconfig @Temp/UnityTempFile-0544fb9cae9f7ea49b380cc589fd5827
