@@ -14,7 +14,7 @@ namespace Unity.TDD.Movements
         public PlayerMoveWithTranslate(IPlayerController playerController)
         {
             _playerController = playerController;
-            _transform = playerController.Transform;
+            _transform = playerController.transform;
         }
 
         public void Tick()

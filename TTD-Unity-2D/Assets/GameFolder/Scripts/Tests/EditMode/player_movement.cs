@@ -15,7 +15,7 @@ namespace Unity.TDD.PlayModeTest
         {
             IPlayerController playerController = Substitute.For<IPlayerController>();
             GameObject gameObject = new GameObject();
-            playerController.Transform.Returns(gameObject.transform);
+            playerController.transform.Returns(gameObject.transform);
             playerController.InputReader = Substitute.For<IInputReader>();
 
             return playerController;
@@ -36,7 +36,7 @@ namespace Unity.TDD.PlayModeTest
             //Arrange
             var playerController = GetPlayer();
             var mover = GetMoverWithTranslate(playerController);
-            Vector3 startPosition = playerController.Transform.position;
+            Vector3 startPosition = playerController.transform.position;
             //Act
             playerController.InputReader.Horizontal.Returns(horizontalInputValue);
             for (int i = 0; i < 10; i++)
@@ -46,7 +46,7 @@ namespace Unity.TDD.PlayModeTest
             }
 
             //Assert
-            Assert.AreNotEqual(startPosition, playerController.Transform.position);
+            Assert.AreNotEqual(startPosition, playerController.transform.position);
         }
 
         [Test]
@@ -55,7 +55,7 @@ namespace Unity.TDD.PlayModeTest
             //Arrange
             var playerController = GetPlayer();
             var mover = GetMoverWithTranslate(playerController);
-            Vector3 startPosition = playerController.Transform.position;
+            Vector3 startPosition = playerController.transform.position;
             //Act
             playerController.InputReader.Horizontal.Returns(1f);
             for (int i = 0; i < 10; i++)
@@ -65,7 +65,7 @@ namespace Unity.TDD.PlayModeTest
             }
 
             //Assert
-            Assert.Greater(playerController.Transform.position.x, startPosition.x);
+            Assert.Greater(playerController.transform.position.x, startPosition.x);
         }
 
         [Test]
@@ -74,7 +74,7 @@ namespace Unity.TDD.PlayModeTest
             //Arrange
             var playerController = GetPlayer();
             IMover mover = GetMoverWithTranslate(playerController);
-            Vector3 startPosition = playerController.Transform.position;
+            Vector3 startPosition = playerController.transform.position;
             //Act
             playerController.InputReader.Horizontal.Returns(-1f);
             for (int i = 0; i < 10; i++)
@@ -84,7 +84,7 @@ namespace Unity.TDD.PlayModeTest
             }
 
             //Assert
-            Assert.Less(playerController.Transform.position.x, startPosition.x);
+            Assert.Less(playerController.transform.position.x, startPosition.x);
         }
     }
 }

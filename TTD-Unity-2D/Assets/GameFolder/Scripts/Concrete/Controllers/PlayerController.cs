@@ -9,7 +9,6 @@ namespace Unity.TDD.Controllers
 {
     public class PlayerController : MonoBehaviour, IPlayerController
     {
-        public Transform Transform { get; }
         public IInputReader InputReader { get; set; }
         IMover _mover;
 
