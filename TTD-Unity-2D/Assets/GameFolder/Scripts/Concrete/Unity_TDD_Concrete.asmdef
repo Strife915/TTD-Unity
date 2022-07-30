@@ -2,7 +2,8 @@
     "name": "Unity_TDD_Concrete",
     "rootNamespace": "",
     "references": [
-        "GUID:f0148cf8fa724d94e8451dc0f3d86bde"
+        "GUID:f0148cf8fa724d94e8451dc0f3d86bde",
+        "GUID:75469ad4d38634e559750d17036d5f7c"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
