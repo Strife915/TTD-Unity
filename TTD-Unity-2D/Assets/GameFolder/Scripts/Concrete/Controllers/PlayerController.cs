@@ -15,16 +15,19 @@ namespace Unity.TDD.Controllers
         public IInputReader InputReader { get; set; }
         public IPlayerStats Stats => _playerStats;
         IMover _mover;
+        IFlip _flip;
 
         void Awake()
         {
             InputReader = new InputReader();
             _mover = new PlayerMoveWithTranslate(this);
+            _flip = new PlayerFlipWithScale(this);
         }
 
         void Update()
         {
             _mover.Tick();
+            _flip.Tick();
         }
 
         void FixedUpdate()

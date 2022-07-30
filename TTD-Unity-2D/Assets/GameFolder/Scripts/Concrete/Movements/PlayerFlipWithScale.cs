@@ -18,7 +18,9 @@ namespace Unity.TDD.Movements
 
         public void Tick()
         {
-            _transform.localScale = _playerController.InputReader.Horizontal * Vector3.right;
+            float horizontalInput = _playerController.InputReader.Horizontal;
+            if (horizontalInput == 0f) return;
+            _transform.localScale = new Vector3(horizontalInput, 1f, 1f);
         }
     }
 }

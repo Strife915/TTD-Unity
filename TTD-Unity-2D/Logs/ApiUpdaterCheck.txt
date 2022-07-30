@@ -308,3 +308,113 @@ C# parse time         : 134ms
 candidates check time : 30ms
 console write time    : 0ms
 
+[api-updater (non-obsolete-error-filter)] 7/31/2022 2:30:00 AM : Starting C:/Users/Menethil/Desktop/UnityProjects/2020.3.34f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 61.6187ms
+moved types parse time: 37ms
+candidates parse time : 0ms
+C# parse time         : 140ms
+candidates check time : 31ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 7/31/2022 2:30:03 AM : Starting C:/Users/Menethil/Desktop/UnityProjects/2020.3.34f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 40.9985ms
+moved types parse time: 37ms
+candidates parse time : 1ms
+C# parse time         : 139ms
+candidates check time : 33ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 7/31/2022 2:48:36 AM : Starting C:/Users/Menethil/Desktop/UnityProjects/2020.3.34f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 39.9991ms
+moved types parse time: 33ms
+candidates parse time : 0ms
+C# parse time         : 136ms
+candidates check time : 34ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 7/31/2022 2:48:58 AM : Starting C:/Users/Menethil/Desktop/UnityProjects/2020.3.34f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 42.9978ms
+moved types parse time: 45ms
+candidates parse time : 1ms
+C# parse time         : 140ms
+candidates check time : 33ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 7/31/2022 2:49:07 AM : Starting C:/Users/Menethil/Desktop/UnityProjects/2020.3.34f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 39.0009ms
+moved types parse time: 41ms
+candidates parse time : 1ms
+C# parse time         : 149ms
+candidates check time : 42ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 7/31/2022 2:49:37 AM : Starting C:/Users/Menethil/Desktop/UnityProjects/2020.3.34f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 38.002ms
+moved types parse time: 34ms
+candidates parse time : 0ms
+C# parse time         : 143ms
+candidates check time : 39ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 7/31/2022 2:49:48 AM : Starting C:/Users/Menethil/Desktop/UnityProjects/2020.3.34f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 38.9998ms
+moved types parse time: 34ms
+candidates parse time : 0ms
+C# parse time         : 137ms
+candidates check time : 39ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 7/31/2022 2:50:04 AM : Starting C:/Users/Menethil/Desktop/UnityProjects/2020.3.34f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 41.9303ms
+moved types parse time: 36ms
+candidates parse time : 0ms
+C# parse time         : 136ms
+candidates check time : 44ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 7/31/2022 2:50:12 AM : Starting C:/Users/Menethil/Desktop/UnityProjects/2020.3.34f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 41.0011ms
+moved types parse time: 39ms
+candidates parse time : 0ms
+C# parse time         : 149ms
+candidates check time : 36ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 7/31/2022 2:50:49 AM : Starting C:/Users/Menethil/Desktop/UnityProjects/2020.3.34f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 42.1957ms
+moved types parse time: 83ms
+candidates parse time : 1ms
+C# parse time         : 168ms
+candidates check time : 34ms
+console write time    : 0ms
+
+[api-updater (non-obsolete-error-filter)] 7/31/2022 2:51:04 AM : Starting C:/Users/Menethil/Desktop/UnityProjects/2020.3.34f1/Editor/Data/Tools/ScriptUpdater/APIUpdater.NonObsoleteApiUpdaterDetector.exe
+[api-updater (non-obsolete-error-filter)] 
+----------------------------------
+jit/startup time      : 37.9999ms
+moved types parse time: 34ms
+candidates parse time : 0ms
+C# parse time         : 142ms
+candidates check time : 39ms
+console write time    : 0ms
+
