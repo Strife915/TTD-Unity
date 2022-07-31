@@ -9,12 +9,8 @@ namespace Unity.TDD.Movements
 {
     public class player_flip : MonoBehaviour
     {
-        [Test]
-        [TestCase(1f)]
-        [TestCase(-1f)]
-        public void player_scale_x_result_equal(float horizontalInput)
+        IPlayerController GetPlayer(float horizontalInput)
         {
-            //Arrange
             IPlayerController playerController = Substitute.For<IPlayerController>();
             GameObject parent = new GameObject();
             GameObject body = new GameObject();
@@ -22,6 +18,19 @@ namespace Unity.TDD.Movements
             playerController.transform.Returns(parent.transform);
             playerController.InputReader.Returns(Substitute.For<IInputReader>());
             playerController.InputReader.Horizontal.Returns(horizontalInput);
+
+
+            return playerController;
+        }
+
+
+        [Test]
+        [TestCase(1f)]
+        [TestCase(-1f)]
+        public void player_scale_x_result_equal(float horizontalInput)
+        {
+            //Arrange
+            var playerController = GetPlayer(horizontalInput);
             IFlip flip = new PlayerFlipWithScale(playerController);
             //Act
             for (int i = 0; i < 10; i++)
@@ -30,7 +39,7 @@ namespace Unity.TDD.Movements
             }
 
             //Assert
-            Assert.AreEqual(horizontalInput, body.transform.localScale.x);
+            Assert.AreEqual(horizontalInput, playerController.transform.GetChild(0).transform.localScale.x);
         }
 
         [Test]
@@ -39,13 +48,7 @@ namespace Unity.TDD.Movements
         public void player_scale_x_result_stop_and_input_came_zero(float horizontalInput)
         {
             //Arrange
-            IPlayerController playerController = Substitute.For<IPlayerController>();
-            GameObject parent = new GameObject();
-            GameObject body = new GameObject();
-            body.transform.SetParent(parent.transform);
-            playerController.transform.Returns(parent.transform);
-            playerController.InputReader.Returns(Substitute.For<IInputReader>());
-            playerController.InputReader.Horizontal.Returns(horizontalInput);
+            var playerController = GetPlayer(horizontalInput);
 
             IFlip flip = new PlayerFlipWithScale(playerController);
             float firstValue = horizontalInput;
@@ -64,7 +67,7 @@ namespace Unity.TDD.Movements
             }
 
             //Assert
-            Assert.AreEqual(firstValue, body.transform.localScale.x);
+            Assert.AreEqual(firstValue, playerController.transform.GetChild(0).transform.localScale.x);
         }
     }
 }

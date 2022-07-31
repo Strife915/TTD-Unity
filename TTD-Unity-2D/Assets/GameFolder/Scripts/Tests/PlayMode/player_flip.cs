@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using NSubstitute;
 using NUnit.Framework;
 using Unity.TDD.Abstracts.Controller;
@@ -13,21 +12,29 @@ namespace Unity.TDD.Movements
 {
     public class player_flip
     {
+        IPlayerController _playerController;
+
+        [UnitySetUp]
+        public IEnumerator SetUp()
+        {
+            yield return SceneManager.LoadSceneAsync("PlayerMovementTest");
+            _playerController = GameObject.FindObjectOfType<PlayerController>();
+            _playerController.InputReader = Substitute.For<IInputReader>();
+        }
+
         [UnityTest]
         [TestCase(1f, ExpectedResult = (IEnumerator)null)]
         [TestCase(-1f, ExpectedResult = (IEnumerator)null)]
         public IEnumerator input_value_1_player_scale_x_result_equal_1(float horizontalInput)
         {
             //Arrange
-            yield return SceneManager.LoadSceneAsync("PlayerMovementTest");
-            IPlayerController playerController = GameObject.FindObjectOfType<PlayerController>();
-            playerController.InputReader = Substitute.For<IInputReader>();
+
 
             //Act
-            playerController.InputReader.Horizontal.Returns(horizontalInput);
+            _playerController.InputReader.Horizontal.Returns(horizontalInput);
             yield return new WaitForSeconds(3f);
             //Assert
-            Assert.AreEqual(playerController.transform.GetChild(0).localScale.x, horizontalInput);
+            Assert.AreEqual(_playerController.transform.GetChild(0).localScale.x, horizontalInput);
         }
 
         [UnityTest]
@@ -36,23 +43,21 @@ namespace Unity.TDD.Movements
         public IEnumerator player_scale_x_result_stop_and_input_came_zero(float horizontalInput)
         {
             //Arrange
-            yield return SceneManager.LoadSceneAsync("PlayerMovementTest");
-            IPlayerController playerController = GameObject.FindObjectOfType<PlayerController>();
-            playerController.InputReader = Substitute.For<IInputReader>();
+
             float firstInputValue = horizontalInput;
 
             float firstValue = horizontalInput;
             //Act
-            playerController.InputReader.Horizontal.Returns(horizontalInput);
+            _playerController.InputReader.Horizontal.Returns(horizontalInput);
             yield return new WaitForSeconds(3f);
 
             horizontalInput = 0;
-            playerController.InputReader.Horizontal.Returns(horizontalInput);
+            _playerController.InputReader.Horizontal.Returns(horizontalInput);
 
             yield return new WaitForSeconds(3f);
 
             //Assert
-            Assert.AreEqual(firstValue, playerController.transform.GetChild(0).transform.localScale.x);
+            Assert.AreEqual(firstValue, _playerController.transform.GetChild(0).transform.localScale.x);
         }
     }
 }
