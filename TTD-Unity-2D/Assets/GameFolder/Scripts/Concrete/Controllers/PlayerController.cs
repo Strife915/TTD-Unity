@@ -1,5 +1,8 @@
+using System;
+using GameFolder.Scripts.Concretes.Combats;
 using TDDBeginner.Inputs;
 using TDDBeginner.ScriptAbleObjects;
+using Unity.TDD.Abstracts.Combats;
 using Unity.TDD.Abstracts.Controller;
 using Unity.TDD.Abstracts.Inputs;
 using Unity.TDD.Abstracts.Movements;
@@ -14,6 +17,8 @@ namespace Unity.TDD.Controllers
         [SerializeField] PlayerStats _playerStats;
         public IInputReader InputReader { get; set; }
         public IPlayerStats Stats => _playerStats;
+        public IHealth Health { get; private set; }
+
         IMover _mover;
         IFlip _flip;
 
@@ -22,6 +27,7 @@ namespace Unity.TDD.Controllers
             InputReader = new InputReader();
             _mover = new PlayerMoveWithTranslate(this);
             _flip = new PlayerFlipWithScale(this);
+            Health = new Health(_playerStats.MaxHealth);
         }
 
         void Update()
@@ -33,6 +39,14 @@ namespace Unity.TDD.Controllers
         void FixedUpdate()
         {
             _mover.FixedTick();
+        }
+
+        void OnCollisionEnter2D(Collision2D other)
+        {
+            //Debug.Log(nameof(OnCollisionEnter2D));
+            if (other.collider.TryGetComponent(out IEnemyController enemyController))
+            {
+            }
         }
     }
 }

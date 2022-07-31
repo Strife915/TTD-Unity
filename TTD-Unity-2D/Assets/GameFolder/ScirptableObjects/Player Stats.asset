@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: Player Stats
   m_EditorClassIdentifier: 
   _moveSpeed: 5
+  _maxHealth: 100

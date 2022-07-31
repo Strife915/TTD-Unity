@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PlayerMovementTest.unity
     guid: 1cddaa0cc640fc44cad7e0f27b54b636
+  - enabled: 1
+    path: Assets/Scenes/PlayerCombatTest.unity
+    guid: 66186494e38dfc24ebe2a90fe9cbbc0f
   m_configObjects: {}

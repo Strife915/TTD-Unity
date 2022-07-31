@@ -4,6 +4,6 @@ namespace TDDBeginner.Combats
 {
     public class Attacker : IAttacker
     {
-        public int Damage { get; }
+        public int Damage => 1;
     }
 }

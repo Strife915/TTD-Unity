@@ -43,11 +43,11 @@ MonoBehaviour:
     y: 0
     width: 641.6
     height: 694.4
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 15}
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 27}
   m_Panes:
-  - {fileID: 15}
+  - {fileID: 27}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &3
@@ -146,9 +146,9 @@ MonoBehaviour:
     width: 2048
     height: 1028.4
   m_MinSize: {x: 606, y: 492}
-  m_MaxSize: {x: 24004, y: 14042}
+  m_MaxSize: {x: 18003, y: 14042}
   vertical: 0
-  controlID: 66
+  controlID: 91
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -171,9 +171,9 @@ MonoBehaviour:
     width: 1433.6
     height: 1028.4
   m_MinSize: {x: 505, y: 492}
-  m_MaxSize: {x: 20003, y: 14042}
+  m_MaxSize: {x: 14002, y: 14042}
   vertical: 1
-  controlID: 67
+  controlID: 92
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -199,7 +199,7 @@ MonoBehaviour:
   m_MinSize: {x: 505, y: 221}
   m_MaxSize: {x: 12005, y: 4021}
   vertical: 0
-  controlID: 68
+  controlID: 93
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -221,9 +221,9 @@ MonoBehaviour:
     height: 694.4
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 19}
+  m_ActualView: {fileID: 18}
   m_Panes:
-  - {fileID: 19}
+  - {fileID: 18}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &10
@@ -247,9 +247,9 @@ MonoBehaviour:
     height: 694.4
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 20}
+  m_ActualView: {fileID: 19}
   m_Panes:
-  - {fileID: 20}
+  - {fileID: 19}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &11
@@ -273,10 +273,10 @@ MonoBehaviour:
     y: 694.4
     width: 1433.6
     height: 334
-  m_MinSize: {x: 463, y: 271}
-  m_MaxSize: {x: 20003, y: 10021}
+  m_MinSize: {x: 332, y: 271}
+  m_MaxSize: {x: 14002, y: 10021}
   vertical: 0
-  controlID: 91
+  controlID: 115
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -287,7 +287,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -296,14 +296,14 @@ MonoBehaviour:
     y: 0
     width: 746.4
     height: 334
-  m_MinSize: {x: 231, y: 271}
-  m_MaxSize: {x: 10001, y: 10021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 21}
   m_Panes:
+  - {fileID: 20}
   - {fileID: 21}
-  - {fileID: 22}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -325,11 +325,11 @@ MonoBehaviour:
     height: 334
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
-  m_ActualView: {fileID: 24}
+  m_ActualView: {fileID: 23}
   m_Panes:
-  - {fileID: 24}
-  - {fileID: 18}
   - {fileID: 23}
+  - {fileID: 17}
+  - {fileID: 22}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &14
@@ -351,107 +351,18 @@ MonoBehaviour:
     y: 0
     width: 614.4
     height: 1028.4
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 17}
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 16}
   m_Panes:
-  - {fileID: 25}
-  - {fileID: 17}
-  - {fileID: 26}
-  - {fileID: 27}
+  - {fileID: 24}
   - {fileID: 16}
+  - {fileID: 25}
+  - {fileID: 26}
+  - {fileID: 15}
   m_Selected: 1
   m_LastSelected: 0
 --- !u!114 &15
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Game
-    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 792
-    y: 73.6
-    width: 639.6
-    height: 673.4
-  m_ViewDataDictionary: {fileID: 0}
-  m_SerializedViewNames: []
-  m_SerializedViewValues: []
-  m_PlayModeViewName: GameView
-  m_ShowGizmos: 0
-  m_TargetDisplay: 0
-  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 799.5, y: 815.5}
-  m_TextureFilterMode: 0
-  m_TextureHideFlags: 61
-  m_RenderIMGUI: 1
-  m_MaximizeOnPlay: 0
-  m_UseMipMap: 0
-  m_VSyncEnabled: 0
-  m_Gizmos: 0
-  m_Stats: 0
-  m_SelectedSizes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
-  m_ZoomArea:
-    m_HRangeLocked: 0
-    m_VRangeLocked: 0
-    hZoomLockedByDefault: 0
-    vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -319.80002
-    m_HBaseRangeMax: 319.80002
-    m_VBaseRangeMin: -326.2
-    m_VBaseRangeMax: 326.2
-    m_HAllowExceedBaseRangeMin: 1
-    m_HAllowExceedBaseRangeMax: 1
-    m_VAllowExceedBaseRangeMin: 1
-    m_VAllowExceedBaseRangeMax: 1
-    m_ScaleWithWindow: 0
-    m_HSlider: 0
-    m_VSlider: 0
-    m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
-    m_EnableSliderZoomHorizontal: 0
-    m_EnableSliderZoomVertical: 0
-    m_UniformScale: 1
-    m_UpDirection: 1
-    m_DrawArea:
-      serializedVersion: 2
-      x: 0
-      y: 21
-      width: 639.6
-      height: 652.4
-    m_Scale: {x: 0.9999999, y: 0.9999999}
-    m_Translation: {x: 319.8, y: 326.2}
-    m_MarginLeft: 0
-    m_MarginRight: 0
-    m_MarginTop: 0
-    m_MarginBottom: 0
-    m_LastShownAreaInsideMargins:
-      serializedVersion: 2
-      x: -319.80002
-      y: -326.20004
-      width: 639.60004
-      height: 652.4001
-    m_MinimalGUI: 1
-  m_defaultScale: 0.9999999
-  m_LastWindowPixelSize: {x: 799.5, y: 841.75}
-  m_ClearInEditMode: 1
-  m_NoCameraWarning: 1
-  m_LowResolutionForAspectRatios: 00000000000000000000
-  m_XRRenderMode: 0
-  m_RenderTexture: {fileID: 0}
---- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -483,7 +394,7 @@ MonoBehaviour:
   m_SelectedObject: {fileID: 0}
   m_SelectedSpriteRectGUID: 00000000000000000000000000000000
   m_LastUsedModuleTypeName: 
---- !u!114 &17
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -509,7 +420,7 @@ MonoBehaviour:
     height: 1007.4
   m_ViewDataDictionary: {fileID: 0}
   m_Spl:
-    ID: 1030
+    ID: 692
     splitterInitialOffset: 0
     currentActiveSplitter: -1
     realSizes:
@@ -534,14 +445,14 @@ MonoBehaviour:
     oldSplitSize: 0
   m_TestTypeToolbarIndex: 0
   m_PlayModeTestListGUI:
-    m_Window: {fileID: 17}
+    m_Window: {fileID: 16}
     m_NewResultList:
     - id: 1004
       uniqueId: '[TTD-Unity-2D][suite]'
       name: TTD-Unity-2D
       fullName: TTD-Unity-2D
       resultStatus: 1
-      duration: 12.367075
+      duration: 1.2551337
       messages: 
       output: 
       stacktrace: 
@@ -557,7 +468,7 @@ MonoBehaviour:
       name: PlayMode.dll
       fullName: C:/Users/Menethil/Desktop/UnityProjects/TTD-Unity/TTD-Unity-2D/Library/ScriptAssemblies/PlayMode.dll
       resultStatus: 1
-      duration: 12.249835
+      duration: 1.1274312
       messages: 
       output: 
       stacktrace: 
@@ -573,7 +484,7 @@ MonoBehaviour:
       name: player_movement
       fullName: player_movement
       resultStatus: 1
-      duration: 12.359086
+      duration: 12.364724
       messages: 
       output: 
       stacktrace: 
@@ -589,7 +500,7 @@ MonoBehaviour:
       name: player_move_left_end_position_greater_than_start_position
       fullName: player_movement.player_move_left_end_position_greater_than_start_position
       resultStatus: 1
-      duration: 3.169809
+      duration: 3.1766467
       messages: 
       output: 
       stacktrace: 
@@ -606,7 +517,7 @@ MonoBehaviour:
       name: player_move_left_or_right_not_equal_start_position
       fullName: player_movement.player_move_left_or_right_not_equal_start_position
       resultStatus: 1
-      duration: 6.1211276
+      duration: 6.119894
       messages: 
       output: 
       stacktrace: 
@@ -622,7 +533,7 @@ MonoBehaviour:
       name: player_move_left_or_right_not_equal_start_position(1.0f)
       fullName: player_movement.player_move_left_or_right_not_equal_start_position(1.0f)
       resultStatus: 1
-      duration: 3.0595832
+      duration: 3.0579102
       messages: 
       output: 
       stacktrace: 
@@ -639,7 +550,7 @@ MonoBehaviour:
       name: player_move_left_or_right_not_equal_start_position(-1.0f)
       fullName: player_movement.player_move_left_or_right_not_equal_start_position(-1.0f)
       resultStatus: 1
-      duration: 3.0559878
+      duration: 3.056394
       messages: 
       output: 
       stacktrace: 
@@ -656,7 +567,7 @@ MonoBehaviour:
       name: player_move_right_end_position_greater_than_start_position
       fullName: player_movement.player_move_right_end_position_greater_than_start_position
       resultStatus: 1
-      duration: 3.05639
+      duration: 3.055761
       messages: 
       output: 
       stacktrace: 
@@ -668,12 +579,84 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1058
       parentUniqueId: PlayMode.dll/[PlayMode][player_movement][suite]
+    - id: 1017
+      uniqueId: PlayMode.dll/[TDDBeginner][suite]
+      name: TDDBeginner
+      fullName: TDDBeginner
+      resultStatus: 1
+      duration: 1.1182667
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1016
+      parentUniqueId: '[PlayMode][C:/Users/Menethil/Desktop/UnityProjects/TTD-Unity/TTD-Unity-2D/Library/ScriptAssemblies/PlayMode.dll][suite]'
+    - id: 1018
+      uniqueId: PlayMode.dll/TDDBeginner/[PlayMode][TDDBeginner.Combats][suite]
+      name: Combats
+      fullName: TDDBeginner.Combats
+      resultStatus: 1
+      duration: 1.1151263
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1017
+      parentUniqueId: PlayMode.dll/[TDDBeginner][suite]
+    - id: 1007
+      uniqueId: PlayMode.dll/TDDBeginner/Combats/[PlayMode][TDDBeginner.Combats.player_health][suite]
+      name: player_health
+      fullName: TDDBeginner.Combats.player_health
+      resultStatus: 1
+      duration: 1.1109
+      messages: 
+      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
+        This is not allowed.  MonoBehaviours can only be added using AddComponent().
+        Alternatively, your script can inherit from ScriptableObject or no base class
+        at all
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1018
+      parentUniqueId: PlayMode.dll/TDDBeginner/[PlayMode][TDDBeginner.Combats][suite]
+    - id: 1008
+      uniqueId: PlayMode.dll/TDDBeginner/Combats/player_health/[PlayMode][TDDBeginner.Combats.player_health.player_take_one_damage]
+      name: player_take_one_damage
+      fullName: TDDBeginner.Combats.player_health.player_take_one_damage
+      resultStatus: 1
+      duration: 1.0933152
+      messages: 
+      output: 'Attack to player
+
+'
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1007
+      parentUniqueId: PlayMode.dll/TDDBeginner/Combats/[PlayMode][TDDBeginner.Combats.player_health][suite]
     - id: 1069
       uniqueId: PlayMode.dll/[Unity][suite]
       name: Unity
       fullName: Unity
       resultStatus: 1
-      duration: 12.238122
+      duration: 6.258075
       messages: 
       output: 
       stacktrace: 
@@ -689,7 +672,7 @@ MonoBehaviour:
       name: TDD
       fullName: Unity.TDD
       resultStatus: 1
-      duration: 12.234953
+      duration: 6.254742
       messages: 
       output: 
       stacktrace: 
@@ -705,7 +688,7 @@ MonoBehaviour:
       name: Movements
       fullName: Unity.TDD.Movements
       resultStatus: 1
-      duration: 12.228365
+      duration: 6.251584
       messages: 
       output: 
       stacktrace: 
@@ -721,7 +704,7 @@ MonoBehaviour:
       name: player_flip
       fullName: Unity.TDD.Movements.player_flip
       resultStatus: 1
-      duration: 12.224895
+      duration: 6.2482123
       messages: 
       output: 
       stacktrace: 
@@ -737,7 +720,7 @@ MonoBehaviour:
       name: input_value_1_player_scale_x_result_equal_1
       fullName: Unity.TDD.Movements.player_flip.input_value_1_player_scale_x_result_equal_1
       resultStatus: 1
-      duration: 3.1993344
+      duration: 6.243751
       messages: 
       output: 
       stacktrace: 
@@ -753,7 +736,7 @@ MonoBehaviour:
       name: input_value_1_player_scale_x_result_equal_1(1.0f)
       fullName: Unity.TDD.Movements.player_flip.input_value_1_player_scale_x_result_equal_1(1.0f)
       resultStatus: 1
-      duration: 3.1783047
+      duration: 3.1746852
       messages: 
       output: 
       stacktrace: 
@@ -770,7 +753,7 @@ MonoBehaviour:
       name: input_value_1_player_scale_x_result_equal_1(-1.0f)
       fullName: Unity.TDD.Movements.player_flip.input_value_1_player_scale_x_result_equal_1(-1.0f)
       resultStatus: 1
-      duration: 3.1890872
+      duration: 3.058152
       messages: 
       output: 
       stacktrace: 
@@ -787,7 +770,7 @@ MonoBehaviour:
       name: player_scale_x_result_stop_and_input_came_zero
       fullName: Unity.TDD.Movements.player_flip.player_scale_x_result_stop_and_input_came_zero
       resultStatus: 1
-      duration: 12.220475
+      duration: 12.0882
       messages: 
       output: 
       stacktrace: 
@@ -803,7 +786,7 @@ MonoBehaviour:
       name: player_scale_x_result_stop_and_input_came_zero(1.0f)
       fullName: Unity.TDD.Movements.player_flip.player_scale_x_result_stop_and_input_came_zero(1.0f)
       resultStatus: 1
-      duration: 6.166443
+      duration: 6.0398064
       messages: 
       output: 
       stacktrace: 
@@ -820,7 +803,7 @@ MonoBehaviour:
       name: player_scale_x_result_stop_and_input_came_zero(-1.0f)
       fullName: Unity.TDD.Movements.player_flip.player_scale_x_result_stop_and_input_came_zero(-1.0f)
       resultStatus: 1
-      duration: 6.0432568
+      duration: 6.0437536
       messages: 
       output: 
       stacktrace: 
@@ -832,13 +815,17 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1035
       parentUniqueId: PlayMode.dll/Unity/TDD/Movements/player_flip/[PlayMode][Unity.TDD.Movements.player_flip.player_scale_x_result_stop_and_input_came_zero][suite]
-    m_ResultText: player_scale_x_result_stop_and_input_came_zero (12.220s)
+    m_ResultText: 'player_take_one_damage (1.093s)
+
+      ---
+
+      Attack to player'
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 98cada3a
-      m_LastClickedID: 987417240
-      m_ExpandedIDs: 2b223380331f689318ba15a26d00d5b2e78612d9fe5dc1e3e44b331c98cada3affffff7f
+      m_SelectedIDs: de055a29
+      m_LastClickedID: 693765598
+      m_ExpandedIDs: 2b223380331f689318ba15a2062417aa99f0e7b06d00d5b2657b71c4e44b331cdc50dd57ffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -866,14 +853,14 @@ MonoBehaviour:
       - Uncategorized
     m_SelectedOption: 0
   m_EditModeTestListGUI:
-    m_Window: {fileID: 17}
+    m_Window: {fileID: 16}
     m_NewResultList:
     - id: 1000
       uniqueId: '[TTD-Unity-2D][suite]'
       name: TTD-Unity-2D
       fullName: TTD-Unity-2D
       resultStatus: 1
-      duration: 0.1487643
+      duration: 0.2428292
       messages: 
       output: 
       stacktrace: 
@@ -889,7 +876,7 @@ MonoBehaviour:
       name: Tests.dll
       fullName: C:/Users/Menethil/Desktop/UnityProjects/TTD-Unity/TTD-Unity-2D/Library/ScriptAssemblies/Tests.dll
       resultStatus: 1
-      duration: 0.1172867
+      duration: 0.2138409
       messages: 
       output: 
       stacktrace: 
@@ -900,12 +887,430 @@ MonoBehaviour:
       categories: []
       parentId: 1000
       parentUniqueId: '[TTD-Unity-2D][suite]'
+    - id: 1040
+      uniqueId: Tests.dll/[TDDBeginner][suite]
+      name: TDDBeginner
+      fullName: TDDBeginner
+      resultStatus: 1
+      duration: 0.1417722
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1035
+      parentUniqueId: '[Tests.dll][suite]'
+    - id: 1041
+      uniqueId: Tests.dll/TDDBeginner/[Tests][TDDBeginner.Combats][suite]
+      name: Combats
+      fullName: TDDBeginner.Combats
+      resultStatus: 1
+      duration: 0.1415453
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1040
+      parentUniqueId: Tests.dll/[TDDBeginner][suite]
+    - id: 1033
+      uniqueId: Tests.dll/TDDBeginner/Combats/[Tests][TDDBeginner.Combats.health][suite]
+      name: health
+      fullName: TDDBeginner.Combats.health
+      resultStatus: 1
+      duration: 0.1403213
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1041
+      parentUniqueId: Tests.dll/TDDBeginner/[Tests][TDDBeginner.Combats][suite]
+    - id: 1024
+      uniqueId: Tests.dll/TDDBeginner/Combats/health/[Tests][TDDBeginner.Combats.health.take_damage_current_health_not_less_than_zero][suite]
+      name: take_damage_current_health_not_less_than_zero
+      fullName: TDDBeginner.Combats.health.take_damage_current_health_not_less_than_zero
+      resultStatus: 1
+      duration: 0.1026763
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1014
+      parentUniqueId: Tests.dll/TDDBeginner/Combats/[Tests][TDDBeginner.Combats.health][suite]
+    - id: 1020
+      uniqueId: Tests.dll/TDDBeginner/Combats/health/take_damage_current_health_not_less_than_zero/[Tests][TDDBeginner.Combats.health.take_damage_current_health_not_less_than_zero(1)]
+      name: take_damage_current_health_not_less_than_zero(1)
+      fullName: TDDBeginner.Combats.health.take_damage_current_health_not_less_than_zero(1)
+      resultStatus: 1
+      duration: 0.09592
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1024
+      parentUniqueId: Tests.dll/TDDBeginner/Combats/health/[Tests][TDDBeginner.Combats.health.take_damage_current_health_not_less_than_zero][suite]
+    - id: 1021
+      uniqueId: Tests.dll/TDDBeginner/Combats/health/take_damage_current_health_not_less_than_zero/[Tests][TDDBeginner.Combats.health.take_damage_current_health_not_less_than_zero(2)]
+      name: take_damage_current_health_not_less_than_zero(2)
+      fullName: TDDBeginner.Combats.health.take_damage_current_health_not_less_than_zero(2)
+      resultStatus: 1
+      duration: 0.0009471
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1024
+      parentUniqueId: Tests.dll/TDDBeginner/Combats/health/[Tests][TDDBeginner.Combats.health.take_damage_current_health_not_less_than_zero][suite]
+    - id: 1022
+      uniqueId: Tests.dll/TDDBeginner/Combats/health/take_damage_current_health_not_less_than_zero/[Tests][TDDBeginner.Combats.health.take_damage_current_health_not_less_than_zero(5)]
+      name: take_damage_current_health_not_less_than_zero(5)
+      fullName: TDDBeginner.Combats.health.take_damage_current_health_not_less_than_zero(5)
+      resultStatus: 1
+      duration: 0.0002831
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1024
+      parentUniqueId: Tests.dll/TDDBeginner/Combats/health/[Tests][TDDBeginner.Combats.health.take_damage_current_health_not_less_than_zero][suite]
+    - id: 1023
+      uniqueId: Tests.dll/TDDBeginner/Combats/health/take_damage_current_health_not_less_than_zero/[Tests][TDDBeginner.Combats.health.take_damage_current_health_not_less_than_zero(10)]
+      name: take_damage_current_health_not_less_than_zero(10)
+      fullName: TDDBeginner.Combats.health.take_damage_current_health_not_less_than_zero(10)
+      resultStatus: 1
+      duration: 0.0002869
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1024
+      parentUniqueId: Tests.dll/TDDBeginner/Combats/health/[Tests][TDDBeginner.Combats.health.take_damage_current_health_not_less_than_zero][suite]
+    - id: 1019
+      uniqueId: Tests.dll/TDDBeginner/Combats/health/[Tests][TDDBeginner.Combats.health.take_damage_not_equal_max_health][suite]
+      name: take_damage_not_equal_max_health
+      fullName: TDDBeginner.Combats.health.take_damage_not_equal_max_health
+      resultStatus: 1
+      duration: 0.0151763
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1014
+      parentUniqueId: Tests.dll/TDDBeginner/Combats/[Tests][TDDBeginner.Combats.health][suite]
+    - id: 1015
+      uniqueId: Tests.dll/TDDBeginner/Combats/health/take_damage_not_equal_max_health/[Tests][TDDBeginner.Combats.health.take_damage_not_equal_max_health(1)]
+      name: take_damage_not_equal_max_health(1)
+      fullName: TDDBeginner.Combats.health.take_damage_not_equal_max_health(1)
+      resultStatus: 1
+      duration: 0.0047284
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1019
+      parentUniqueId: Tests.dll/TDDBeginner/Combats/health/[Tests][TDDBeginner.Combats.health.take_damage_not_equal_max_health][suite]
+    - id: 1016
+      uniqueId: Tests.dll/TDDBeginner/Combats/health/take_damage_not_equal_max_health/[Tests][TDDBeginner.Combats.health.take_damage_not_equal_max_health(2)]
+      name: take_damage_not_equal_max_health(2)
+      fullName: TDDBeginner.Combats.health.take_damage_not_equal_max_health(2)
+      resultStatus: 1
+      duration: 0.000292
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1019
+      parentUniqueId: Tests.dll/TDDBeginner/Combats/health/[Tests][TDDBeginner.Combats.health.take_damage_not_equal_max_health][suite]
+    - id: 1017
+      uniqueId: Tests.dll/TDDBeginner/Combats/health/take_damage_not_equal_max_health/[Tests][TDDBeginner.Combats.health.take_damage_not_equal_max_health(5)]
+      name: take_damage_not_equal_max_health(5)
+      fullName: TDDBeginner.Combats.health.take_damage_not_equal_max_health(5)
+      resultStatus: 1
+      duration: 0.000285
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1019
+      parentUniqueId: Tests.dll/TDDBeginner/Combats/health/[Tests][TDDBeginner.Combats.health.take_damage_not_equal_max_health][suite]
+    - id: 1018
+      uniqueId: Tests.dll/TDDBeginner/Combats/health/take_damage_not_equal_max_health/[Tests][TDDBeginner.Combats.health.take_damage_not_equal_max_health(10)]
+      name: take_damage_not_equal_max_health(10)
+      fullName: TDDBeginner.Combats.health.take_damage_not_equal_max_health(10)
+      resultStatus: 1
+      duration: 0.0002732
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1019
+      parentUniqueId: Tests.dll/TDDBeginner/Combats/health/[Tests][TDDBeginner.Combats.health.take_damage_not_equal_max_health][suite]
+    - id: 1025
+      uniqueId: Tests.dll/TDDBeginner/Combats/health/[Tests][TDDBeginner.Combats.health.take_damage_on_took_damage_event_triggered]
+      name: take_damage_on_took_damage_event_triggered
+      fullName: TDDBeginner.Combats.health.take_damage_on_took_damage_event_triggered
+      resultStatus: 1
+      duration: 0.0005837
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1014
+      parentUniqueId: Tests.dll/TDDBeginner/Combats/[Tests][TDDBeginner.Combats.health][suite]
+    - id: 1031
+      uniqueId: Tests.dll/TDDBeginner/Combats/health/[Tests][TDDBeginner.Combats.health.take_fatal_damage]
+      name: take_fatal_damage
+      fullName: TDDBeginner.Combats.health.take_fatal_damage
+      resultStatus: 1
+      duration: 0.0004846
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1014
+      parentUniqueId: Tests.dll/TDDBeginner/Combats/[Tests][TDDBeginner.Combats.health][suite]
+    - id: 1037
+      uniqueId: Tests.dll/TDDBeginner/Combats/health/[Tests][TDDBeginner.Combats.health.take_fatal_damage_many_time_on_took_damage_trigger_once][suite]
+      name: take_fatal_damage_many_time_on_took_damage_trigger_once
+      fullName: TDDBeginner.Combats.health.take_fatal_damage_many_time_on_took_damage_trigger_once
+      resultStatus: 1
+      duration: 0.0064999
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1014
+      parentUniqueId: Tests.dll/TDDBeginner/Combats/[Tests][TDDBeginner.Combats.health][suite]
+    - id: 1034
+      uniqueId: Tests.dll/TDDBeginner/Combats/health/take_fatal_damage_many_time_on_took_damage_trigger_once/[Tests][TDDBeginner.Combats.health.take_fatal_damage_many_time_on_took_damage_trigger_once(2)]
+      name: take_fatal_damage_many_time_on_took_damage_trigger_once(2)
+      fullName: TDDBeginner.Combats.health.take_fatal_damage_many_time_on_took_damage_trigger_once(2)
+      resultStatus: 1
+      duration: 0.000563
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1037
+      parentUniqueId: Tests.dll/TDDBeginner/Combats/health/[Tests][TDDBeginner.Combats.health.take_fatal_damage_many_time_on_took_damage_trigger_once][suite]
+    - id: 1035
+      uniqueId: Tests.dll/TDDBeginner/Combats/health/take_fatal_damage_many_time_on_took_damage_trigger_once/[Tests][TDDBeginner.Combats.health.take_fatal_damage_many_time_on_took_damage_trigger_once(5)]
+      name: take_fatal_damage_many_time_on_took_damage_trigger_once(5)
+      fullName: TDDBeginner.Combats.health.take_fatal_damage_many_time_on_took_damage_trigger_once(5)
+      resultStatus: 1
+      duration: 0.0002714
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1037
+      parentUniqueId: Tests.dll/TDDBeginner/Combats/health/[Tests][TDDBeginner.Combats.health.take_fatal_damage_many_time_on_took_damage_trigger_once][suite]
+    - id: 1036
+      uniqueId: Tests.dll/TDDBeginner/Combats/health/take_fatal_damage_many_time_on_took_damage_trigger_once/[Tests][TDDBeginner.Combats.health.take_fatal_damage_many_time_on_took_damage_trigger_once(10)]
+      name: take_fatal_damage_many_time_on_took_damage_trigger_once(10)
+      fullName: TDDBeginner.Combats.health.take_fatal_damage_many_time_on_took_damage_trigger_once(10)
+      resultStatus: 1
+      duration: 0.000266
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1037
+      parentUniqueId: Tests.dll/TDDBeginner/Combats/health/[Tests][TDDBeginner.Combats.health.take_fatal_damage_many_time_on_took_damage_trigger_once][suite]
+    - id: 1032
+      uniqueId: Tests.dll/TDDBeginner/Combats/health/[Tests][TDDBeginner.Combats.health.take_normal_damage_on_dead_not_triggered]
+      name: take_normal_damage_on_dead_not_triggered
+      fullName: TDDBeginner.Combats.health.take_normal_damage_on_dead_not_triggered
+      resultStatus: 1
+      duration: 0.000379
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1014
+      parentUniqueId: Tests.dll/TDDBeginner/Combats/[Tests][TDDBeginner.Combats.health][suite]
+    - id: 1030
+      uniqueId: Tests.dll/TDDBeginner/Combats/health/[Tests][TDDBeginner.Combats.health.take_several_damage_on_took_damage_event_trigered_5_time][suite]
+      name: take_several_damage_on_took_damage_event_trigered_5_time
+      fullName: TDDBeginner.Combats.health.take_several_damage_on_took_damage_event_trigered_5_time
+      resultStatus: 1
+      duration: 0.0067954
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1014
+      parentUniqueId: Tests.dll/TDDBeginner/Combats/[Tests][TDDBeginner.Combats.health][suite]
+    - id: 1026
+      uniqueId: Tests.dll/TDDBeginner/Combats/health/take_several_damage_on_took_damage_event_trigered_5_time/[Tests][TDDBeginner.Combats.health.take_several_damage_on_took_damage_event_trigered_5_time(1)]
+      name: take_several_damage_on_took_damage_event_trigered_5_time(1)
+      fullName: TDDBeginner.Combats.health.take_several_damage_on_took_damage_event_trigered_5_time(1)
+      resultStatus: 1
+      duration: 0.0004721
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1030
+      parentUniqueId: Tests.dll/TDDBeginner/Combats/health/[Tests][TDDBeginner.Combats.health.take_several_damage_on_took_damage_event_trigered_5_time][suite]
+    - id: 1027
+      uniqueId: Tests.dll/TDDBeginner/Combats/health/take_several_damage_on_took_damage_event_trigered_5_time/[Tests][TDDBeginner.Combats.health.take_several_damage_on_took_damage_event_trigered_5_time(2)]
+      name: take_several_damage_on_took_damage_event_trigered_5_time(2)
+      fullName: TDDBeginner.Combats.health.take_several_damage_on_took_damage_event_trigered_5_time(2)
+      resultStatus: 1
+      duration: 0.0002933
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1030
+      parentUniqueId: Tests.dll/TDDBeginner/Combats/health/[Tests][TDDBeginner.Combats.health.take_several_damage_on_took_damage_event_trigered_5_time][suite]
+    - id: 1028
+      uniqueId: Tests.dll/TDDBeginner/Combats/health/take_several_damage_on_took_damage_event_trigered_5_time/[Tests][TDDBeginner.Combats.health.take_several_damage_on_took_damage_event_trigered_5_time(5)]
+      name: take_several_damage_on_took_damage_event_trigered_5_time(5)
+      fullName: TDDBeginner.Combats.health.take_several_damage_on_took_damage_event_trigered_5_time(5)
+      resultStatus: 1
+      duration: 0.0003419
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1030
+      parentUniqueId: Tests.dll/TDDBeginner/Combats/health/[Tests][TDDBeginner.Combats.health.take_several_damage_on_took_damage_event_trigered_5_time][suite]
+    - id: 1029
+      uniqueId: Tests.dll/TDDBeginner/Combats/health/take_several_damage_on_took_damage_event_trigered_5_time/[Tests][TDDBeginner.Combats.health.take_several_damage_on_took_damage_event_trigered_5_time(10)]
+      name: take_several_damage_on_took_damage_event_trigered_5_time(10)
+      fullName: TDDBeginner.Combats.health.take_several_damage_on_took_damage_event_trigered_5_time(10)
+      resultStatus: 1
+      duration: 0.0004276
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1030
+      parentUniqueId: Tests.dll/TDDBeginner/Combats/health/[Tests][TDDBeginner.Combats.health.take_several_damage_on_took_damage_event_trigered_5_time][suite]
     - id: 1012
       uniqueId: Tests.dll/[Unity][suite]
       name: Unity
       fullName: Unity
       resultStatus: 1
-      duration: 0.116329
+      duration: 0.0709528
       messages: 
       output: 
       stacktrace: 
@@ -921,7 +1326,7 @@ MonoBehaviour:
       name: TDD
       fullName: Unity.TDD
       resultStatus: 1
-      duration: 0.1160853
+      duration: 0.0656648
       messages: 
       output: 
       stacktrace: 
@@ -937,7 +1342,7 @@ MonoBehaviour:
       name: Movements
       fullName: Unity.TDD.Movements
       resultStatus: 1
-      duration: 0.1136913
+      duration: 0.0224106
       messages: 
       output: 
       stacktrace: 
@@ -953,7 +1358,7 @@ MonoBehaviour:
       name: player_flip
       fullName: Unity.TDD.Movements.player_flip
       resultStatus: 1
-      duration: 0.1112245
+      duration: 0.0217651
       messages: 
       output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
         This is not allowed.  MonoBehaviours can only be added using AddComponent().
@@ -974,7 +1379,7 @@ MonoBehaviour:
       name: player_scale_x_result_equal
       fullName: Unity.TDD.Movements.player_flip.player_scale_x_result_equal
       resultStatus: 1
-      duration: 0.1079479
+      duration: 0.0096618
       messages: 
       output: 
       stacktrace: 
@@ -990,7 +1395,7 @@ MonoBehaviour:
       name: player_scale_x_result_equal(1.0f)
       fullName: Unity.TDD.Movements.player_flip.player_scale_x_result_equal(1.0f)
       resultStatus: 1
-      duration: 0.0960808
+      duration: 0.0064284
       messages: 
       output: 
       stacktrace: 
@@ -1007,7 +1412,7 @@ MonoBehaviour:
       name: player_scale_x_result_equal(-1.0f)
       fullName: Unity.TDD.Movements.player_flip.player_scale_x_result_equal(-1.0f)
       resultStatus: 1
-      duration: 0.0010355
+      duration: 0.0008692
       messages: 
       output: 
       stacktrace: 
@@ -1024,7 +1429,7 @@ MonoBehaviour:
       name: player_scale_x_result_stop_and_input_came_zero
       fullName: Unity.TDD.Movements.player_flip.player_scale_x_result_stop_and_input_came_zero
       resultStatus: 1
-      duration: 0.1056129
+      duration: 0.0082728
       messages: 
       output: 
       stacktrace: 
@@ -1040,7 +1445,7 @@ MonoBehaviour:
       name: player_scale_x_result_stop_and_input_came_zero(1.0f)
       fullName: Unity.TDD.Movements.player_flip.player_scale_x_result_stop_and_input_came_zero(1.0f)
       resultStatus: 1
-      duration: 0.0919933
+      duration: 0.0014348
       messages: 
       output: 
       stacktrace: 
@@ -1057,7 +1462,7 @@ MonoBehaviour:
       name: player_scale_x_result_stop_and_input_came_zero(-1.0f)
       fullName: Unity.TDD.Movements.player_flip.player_scale_x_result_stop_and_input_came_zero(-1.0f)
       resultStatus: 1
-      duration: 0.0014187
+      duration: 0.0012458
       messages: 
       output: 
       stacktrace: 
@@ -1074,7 +1479,7 @@ MonoBehaviour:
       name: PlayModeTest
       fullName: Unity.TDD.PlayModeTest
       resultStatus: 1
-      duration: 0.0383077
+      duration: 0.0428443
       messages: 
       output: 
       stacktrace: 
@@ -1090,7 +1495,7 @@ MonoBehaviour:
       name: player_movement
       fullName: Unity.TDD.PlayModeTest.player_movement
       resultStatus: 1
-      duration: 0.0272674
+      duration: 0.0365141
       messages: 
       output: 
       stacktrace: 
@@ -1106,7 +1511,7 @@ MonoBehaviour:
       name: move_10_meters_left_end_position_less_than_start_position
       fullName: Unity.TDD.PlayModeTest.player_movement.move_10_meters_left_end_position_less_than_start_position
       resultStatus: 1
-      duration: 0.0075281
+      duration: 0.0085637
       messages: 
       output: 
       stacktrace: 
@@ -1123,7 +1528,7 @@ MonoBehaviour:
       name: move_10_meters_right_end_position_greater_than_start_position
       fullName: Unity.TDD.PlayModeTest.player_movement.move_10_meters_right_end_position_greater_than_start_position
       resultStatus: 1
-      duration: 0.0030768
+      duration: 0.005308
       messages: 
       output: 
       stacktrace: 
@@ -1140,7 +1545,7 @@ MonoBehaviour:
       name: move_10_meters_right_not_equal_start_position
       fullName: Unity.TDD.PlayModeTest.player_movement.move_10_meters_right_not_equal_start_position
       resultStatus: 1
-      duration: 0.0138541
+      duration: 0.0192545
       messages: 
       output: 
       stacktrace: 
@@ -1156,7 +1561,7 @@ MonoBehaviour:
       name: move_10_meters_right_not_equal_start_position(1.0f)
       fullName: Unity.TDD.PlayModeTest.player_movement.move_10_meters_right_not_equal_start_position(1.0f)
       resultStatus: 1
-      duration: 0.0047985
+      duration: 0.0071826
       messages: 
       output: 
       stacktrace: 
@@ -1173,7 +1578,7 @@ MonoBehaviour:
       name: move_10_meters_right_not_equal_start_position(-1.0f)
       fullName: Unity.TDD.PlayModeTest.player_movement.move_10_meters_right_not_equal_start_position(-1.0f)
       resultStatus: 1
-      duration: 0.0018205
+      duration: 0.003693
       messages: 
       output: 
       stacktrace: 
@@ -1185,13 +1590,13 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1004
       parentUniqueId: Tests.dll/Unity/TDD/PlayModeTest/player_movement/[Tests][Unity.TDD.PlayModeTest.player_movement.move_10_meters_right_not_equal_start_position][suite]
-    m_ResultText: player_scale_x_result_stop_and_input_came_zero (0.106s)
+    m_ResultText: health (0.140s)
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: a20a82e6
-      m_LastClickedID: -427685214
-      m_ExpandedIDs: 331f68934d6189d5a20a82e6ee0896ece557abf7af7bf533d7265c41086f49612189f5767058b179ffffff7f
+      m_SelectedIDs: c1221e61
+      m_LastClickedID: 1629364929
+      m_ExpandedIDs: 331f6893801eceb24d6189d5f56f8aead1b500efe557abf74e68a90771807615af7bf533c1221e61086f49612189f5767058b179ffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1217,7 +1622,7 @@ MonoBehaviour:
       selectedCategoryMask: 0
       availableCategories:
       - Uncategorized
---- !u!114 &18
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1278,7 +1683,7 @@ MonoBehaviour:
   m_CurrentEditor: 0
   m_LayerEditor:
     m_SelectedLayerIndex: 0
---- !u!114 &19
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1308,21 +1713,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: e89affff069bffff289bffffce9bffff009dffff989efffff69efffff69fffff54a0ffffbaa3ffffbca3ffffdaa3ffff80a4ffff2ca5ffff4aa5ffffa2a5ffffa4a5ffff34a6ffff80a6ffff9ea6ffff44a7ffff8ca7ffffaaa7ffff6ca8ffffc6a8ffffe4a8ffff8aa9ffff96aaffffb4aaffff5aabffff9cabffffbaabffff60acffff9aacffff9cacffffbaacffffdcacffff82adffffe8aeffff06afffffc8affffffeafffff1cb0ffff58b1ffffd6b1ffff6eb7ffff
+      m_ExpandedIDs: 34a5ffff52a5ffff0aa6ffff18a7ffff36a7ffffeea7ffff78a9ffff96a9ffff4eaaffff34abffff52abffff0aacffff82b2ffffa0b2ffff58b3ffffa6b7ffffc4b7ffff78b8ffffc4b8ffffe2b8ffff96b9ffffa8baffffc6baffff7abbffffb8bbffffd6bbffff8abcffffbccfffffdacfffff8ed0ffffe6d0ffff04d1ffffb8d1ffff58d2ffff76d2ffff2ad3ffff28d5ffff38d5ffff56d5ffff0cd6ffffbcdaffffdadaffff8cdbffffd6edfffff4edffff9aeeffff2cefffff4aeffffff2efffffa4f8ffffaaf9ffffcef9fffffcf9ffff5cfbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Body
-        m_OriginalName: Body
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -23628
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 9}
       m_SearchString: 
@@ -1332,7 +1737,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: ebaa56bc09a7b0b41b7ecbdcf0c501ff
---- !u!114 &20
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1368,9 +1773,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -15.104695, y: -0.54911214, z: -0.21540673}
+    m_Target: {x: 0.11142451, y: 1.3036758, z: -0.21573222}
     speed: 2
-    m_Value: {x: -15.104695, y: -0.54911214, z: -0.21540673}
+    m_Value: {x: 0.11142451, y: 1.3036758, z: -0.21573222}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1421,9 +1826,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 2.6798525
+    m_Target: 2.4491417
     speed: 2
-    m_Value: 2.6798525
+    m_Value: 2.4491417
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1441,14 +1846,14 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewRotation: {x: 0.0013099329, y: 0.98998976, z: -0.14083377, w: 0.009208124}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &21
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1474,7 +1879,7 @@ MonoBehaviour:
     height: 313
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
-    m_NameFilter: 
+    m_NameFilter: grass
     m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
@@ -1488,7 +1893,7 @@ MonoBehaviour:
     m_Folders:
     - Assets
     m_Globs: []
-    m_OriginalText: 
+    m_OriginalText: grass
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
@@ -1499,9 +1904,9 @@ MonoBehaviour:
     m_IsLocked: 1
   m_FolderTreeState:
     scrollPos: {x: 0, y: 31}
-    m_SelectedIDs: f4910000
-    m_LastClickedID: 37364
-    m_ExpandedIDs: 00000000f4910000f6910000f8910000fa910000fc910000fe9100000092000002920000049200000692000008920000
+    m_SelectedIDs: 92470000
+    m_LastClickedID: 18322
+    m_ExpandedIDs: 00000000924700009447000096470000984700009a4700009c4700009e470000a0470000a2470000a4470000a6470000e0470000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1529,7 +1934,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f4910000f6910000f8910000fa910000fc910000fe9100000092000002920000049200000692000008920000
+    m_ExpandedIDs: 00000000924700009447000096470000984700009a4700009c4700009e470000a0470000a2470000a4470000a6470000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1560,18 +1965,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: 943700005c3700007c3700006238000076370000d8390000583800006e370000ba370000e2370000943e000010370000b034000096fd00008636000018c30100883d0000c4791500164200001a290f00bc410000ae410000c24100001a450000e446000042520000a0530000685200006453000020d60400b2b90200145400005a5e0000e0550000cc5e00000a5b0300568e0000a6bb07001a5a0000b2620000f45700004259000046610000fc6b000086600000606d0000aa6100005e620000185f0000125f00007a640000c65c0000ce650000e86a0000c45c0000f25f0000f260000086660000ac6500007269000032650000643d000058ae0000b2ea0000f65b00004afa0000f8750100e4c600004eae0200d8dd00000ac50000e4d90000ecd90000a45c000096ce0100c4b20100c2b201000000000082520300c6cb02007ac90900868f0500024107000841070020710000406b000066680500e46b00006a6805006868050058e901009818020094d8010098fd0400940b02002c1405002adc0100ae4402000aee010092790000a2790000f4930200a67900007a7802001a6c0200b6990200ae7e06008e1e0900265e0400c0bb0a006c752800969200004c920000289200005c7a0300569b0300ce7d00007a020100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Enemy
+      m_OriginalName: Enemy
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 30294
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 12}
     m_CreateAssetUtility:
@@ -1581,11 +1986,11 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 32}
     m_GridSize: 16
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 254
---- !u!114 &22
+--- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1607,10 +2012,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 768
-    width: 961.4
+    width: 745.4
     height: 313
   m_ViewDataDictionary: {fileID: 0}
---- !u!114 &23
+--- !u!114 &22
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1637,8 +2042,8 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -3414
---- !u!114 &24
+  m_LastSelectedObjectID: -21710
+--- !u!114 &23
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1676,22 +2081,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/GameFolder/Scripts/Tests/EditMode
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/GameFolder/Scripts/Tests/EditMode
+  - Assets/Scenes
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\Menethil\Desktop\UnityProjects\TTD-Unity\TTD-Unity-2D
   m_LockTracker:
     m_IsLocked: 1
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 379}
-    m_SelectedIDs: 58920000
-    m_LastClickedID: 37464
-    m_ExpandedIDs: 00000000f4910000f6910000f8910000fa910000fc910000fe91000000920000029200000492000006920000089200003492000038920000
+    scrollPos: {x: 0, y: 427}
+    m_SelectedIDs: e6470000
+    m_LastClickedID: 18406
+    m_ExpandedIDs: 00000000924700009447000096470000984700009a4700009c4700009e470000a0470000a2470000a4470000a6470000dc470000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1719,7 +2124,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000f4910000f6910000f8910000fa910000fc910000fe9100000092000002920000049200000692000008920000
+    m_ExpandedIDs: 00000000924700009447000096470000984700009a4700009c4700009e470000a0470000a2470000a4470000a6470000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1775,7 +2180,7 @@ MonoBehaviour:
     m_GridSize: 16
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 252
---- !u!114 &25
+--- !u!114 &24
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1812,7 +2217,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &26
+--- !u!114 &25
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1837,7 +2242,7 @@ MonoBehaviour:
     width: 589
     height: 1270
   m_ViewDataDictionary: {fileID: 0}
---- !u!114 &27
+--- !u!114 &26
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1862,6 +2267,97 @@ MonoBehaviour:
     width: 563
     height: 1286
   m_ViewDataDictionary: {fileID: 0}
+--- !u!114 &27
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Game
+    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 792
+    y: 73.6
+    width: 639.6
+    height: 673.4
+  m_ViewDataDictionary: {fileID: 0}
+  m_SerializedViewNames:
+  - UnityEditor.DeviceSimulation.SimulatorWindow
+  m_SerializedViewValues:
+  - C:\Users\Menethil\Desktop\UnityProjects\TTD-Unity\TTD-Unity-2D\Library\PlayModeViewStates\aa6490019e3c2934888ab82faa580976
+  m_PlayModeViewName: GameView
+  m_ShowGizmos: 0
+  m_TargetDisplay: 0
+  m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+  m_TargetSize: {x: 1920, y: 1080}
+  m_TextureFilterMode: 0
+  m_TextureHideFlags: 61
+  m_RenderIMGUI: 1
+  m_MaximizeOnPlay: 0
+  m_UseMipMap: 0
+  m_VSyncEnabled: 0
+  m_Gizmos: 0
+  m_Stats: 0
+  m_SelectedSizes: 09000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_ZoomArea:
+    m_HRangeLocked: 0
+    m_VRangeLocked: 0
+    hZoomLockedByDefault: 0
+    vZoomLockedByDefault: 0
+    m_HBaseRangeMin: -768
+    m_HBaseRangeMax: 768
+    m_VBaseRangeMin: -432
+    m_VBaseRangeMax: 432
+    m_HAllowExceedBaseRangeMin: 1
+    m_HAllowExceedBaseRangeMax: 1
+    m_VAllowExceedBaseRangeMin: 1
+    m_VAllowExceedBaseRangeMax: 1
+    m_ScaleWithWindow: 0
+    m_HSlider: 0
+    m_VSlider: 0
+    m_IgnoreScrollWheelUntilClicked: 0
+    m_EnableMouseInput: 1
+    m_EnableSliderZoomHorizontal: 0
+    m_EnableSliderZoomVertical: 0
+    m_UniformScale: 1
+    m_UpDirection: 1
+    m_DrawArea:
+      serializedVersion: 2
+      x: 0
+      y: 21
+      width: 639.6
+      height: 652.4
+    m_Scale: {x: 0.41640624, y: 0.41640624}
+    m_Translation: {x: 319.8, y: 326.2}
+    m_MarginLeft: 0
+    m_MarginRight: 0
+    m_MarginTop: 0
+    m_MarginBottom: 0
+    m_LastShownAreaInsideMargins:
+      serializedVersion: 2
+      x: -768
+      y: -783.3696
+      width: 1536
+      height: 1566.7393
+    m_MinimalGUI: 1
+  m_defaultScale: 0.41640624
+  m_LastWindowPixelSize: {x: 799.5, y: 841.75}
+  m_ClearInEditMode: 1
+  m_NoCameraWarning: 1
+  m_LowResolutionForAspectRatios: 00000000000000000000
+  m_XRRenderMode: 0
+  m_RenderTexture: {fileID: 0}
 --- !u!114 &28
 MonoBehaviour:
   m_ObjectHideFlags: 0
