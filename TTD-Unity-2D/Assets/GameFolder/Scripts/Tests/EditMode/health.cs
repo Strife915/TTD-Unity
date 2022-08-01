@@ -2,6 +2,7 @@ using GameFolder.Scripts.Concretes.Combats;
 using NSubstitute;
 using NUnit.Framework;
 using Unity.TDD.Abstracts.Combats;
+using Unity.TDD.Abstracts.ScriptableObjects;
 
 namespace TDDBeginner.Combats
 {
@@ -17,7 +18,9 @@ namespace TDDBeginner.Combats
 
         IHealth GetHealth(int maxHealth)
         {
-            IHealth health = new Health(maxHealth);
+            IStats stats = Substitute.For<IStats>();
+            stats.MaxHealth.Returns(maxHealth);
+            IHealth health = new Health(stats);
             return health;
         }
 

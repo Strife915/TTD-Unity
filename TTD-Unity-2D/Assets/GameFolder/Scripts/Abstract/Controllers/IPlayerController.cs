@@ -10,9 +10,4 @@ namespace Unity.TDD.Abstracts.Controller
         IPlayerStats Stats { get; }
         IHealth Health { get; }
     }
-
-    public interface IEnemyController : IEntityController
-    {
-        IAttacker Attacker { get; }
-    }
 }
