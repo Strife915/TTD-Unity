@@ -1,4 +1,5 @@
 using System.Collections;
+using JetBrains.Annotations;
 using NSubstitute;
 using NUnit.Framework;
 using Unity.TDD.Abstracts.Controller;
@@ -31,7 +32,8 @@ namespace TDDBeginner.Combats
         [TestCase(2, ExpectedResult = (IEnumerator)null)]
         [TestCase(5, ExpectedResult = (IEnumerator)null)]
         [TestCase(10, ExpectedResult = (IEnumerator)null)]
-        public IEnumerator player_take_one_damage_in_one_time(int damageValue)
+        [CanBeNull]
+        public IEnumerator player_take_damage_in_one_time_different_damage_value(int damageValue)
         {
             _enemy.Attacker = new Attacker(_enemyStats);
             _enemyStats.CalculateDamage.Returns(damageValue);
@@ -42,6 +44,23 @@ namespace TDDBeginner.Combats
             yield return new WaitForSeconds(1f);
 
             Assert.AreEqual(maxHealth - damageValue, _player.Health.CurrentHealth);
+        }
+
+        [UnityTest]
+        [TestCase(0,1f,5, ExpectedResult = (IEnumerator)null)]
+        [TestCase(-1f,0f,5, ExpectedResult = (IEnumerator)null)]
+        [TestCase(1f,0f,5, ExpectedResult = (IEnumerator)null)]
+        public IEnumerator player_take_one_damage_from_right_up_left_side(float x,float y,int damageValue)
+        {
+            Vector3 attackPosition = new Vector3(x, y, 0f);
+            int maxHealth = _player.Health.CurrentHealth;
+            _enemy.Attacker = new Attacker(_enemyStats);
+            _enemyStats.CalculateDamage.Returns(damageValue);
+            Vector3 playerNearestPosition = _player.transform.position + (attackPosition/2);
+            _enemy.transform.position = playerNearestPosition;
+
+            yield return new WaitForSeconds(1f);
+            Assert.AreEqual(maxHealth - damageValue,_player.Health.CurrentHealth);
         }
     }
 }

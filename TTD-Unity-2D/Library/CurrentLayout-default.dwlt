@@ -15,11 +15,11 @@ MonoBehaviour:
   m_PixelRect:
     serializedVersion: 2
     x: 0
-    y: 43.2
-    width: 2048
-    height: 1078.4
+    y: 43
+    width: 2560
+    height: 1357
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Test Runner
   m_RootView: {fileID: 3}
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
@@ -39,12 +39,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 792
+    x: 990
     y: 0
-    width: 641.6
-    height: 694.4
-  m_MinSize: {x: 102, y: 121}
-  m_MaxSize: {x: 4002, y: 4021}
+    width: 802
+    height: 882
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 27}
   m_Panes:
   - {fileID: 27}
@@ -70,8 +70,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 2048
-    height: 1078.4
+    width: 2560
+    height: 1357
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -95,7 +95,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 2048
+    width: 2560
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -119,8 +119,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 1058.4
-    width: 2048
+    y: 1337
+    width: 2560
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -143,12 +143,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 2048
-    height: 1028.4
-  m_MinSize: {x: 606, y: 492}
-  m_MaxSize: {x: 18003, y: 14042}
+    width: 2560
+    height: 1307
+  m_MinSize: {x: 605, y: 492}
+  m_MaxSize: {x: 18002, y: 14042}
   vertical: 0
-  controlID: 91
+  controlID: 18
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -168,12 +168,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1433.6
-    height: 1028.4
+    width: 1792
+    height: 1307
   m_MinSize: {x: 505, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 1
-  controlID: 92
+  controlID: 50
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -194,12 +194,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1433.6
-    height: 694.4
+    width: 1792
+    height: 882
   m_MinSize: {x: 505, y: 221}
   m_MaxSize: {x: 12005, y: 4021}
   vertical: 0
-  controlID: 93
+  controlID: 51
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -217,8 +217,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 292.8
-    height: 694.4
+    width: 366
+    height: 882
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
@@ -241,10 +241,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 292.8
+    x: 366
     y: 0
-    width: 499.2
-    height: 694.4
+    width: 624
+    height: 882
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
@@ -270,13 +270,13 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 694.4
-    width: 1433.6
-    height: 334
+    y: 882
+    width: 1792
+    height: 425
   m_MinSize: {x: 332, y: 271}
   m_MaxSize: {x: 14002, y: 10021}
   vertical: 0
-  controlID: 115
+  controlID: 183
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -294,8 +294,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 746.4
-    height: 334
+    width: 933
+    height: 425
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 21}
@@ -319,10 +319,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 746.4
+    x: 933
     y: 0
-    width: 687.19995
-    height: 334
+    width: 859
+    height: 425
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
   m_ActualView: {fileID: 23}
@@ -347,12 +347,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1433.6
+    x: 1792
     y: 0
-    width: 614.4
-    height: 1028.4
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
+    width: 768
+    height: 1307
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 24}
@@ -414,18 +414,18 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1433.6
-    y: 73.6
-    width: 613.4
-    height: 1007.4
+    x: 1792
+    y: 73
+    width: 767
+    height: 1286
   m_ViewDataDictionary: {fileID: 0}
   m_Spl:
-    ID: 692
+    ID: 228
     splitterInitialOffset: 0
     currentActiveSplitter: -1
     realSizes:
-    - 702.4
-    - 234.4
+    - 912
+    - 304
     relativeSizes:
     - 0.75
     - 0.25
@@ -435,7 +435,7 @@ MonoBehaviour:
     maxSizes:
     - 0
     - 0
-    lastTotalSize: 936.8
+    lastTotalSize: 1216
     splitSize: 6
     xOffset: 0
     m_Version: 1
@@ -452,7 +452,7 @@ MonoBehaviour:
       name: TTD-Unity-2D
       fullName: TTD-Unity-2D
       resultStatus: 1
-      duration: 1.2551337
+      duration: 4.800076
       messages: 
       output: 
       stacktrace: 
@@ -463,12 +463,12 @@ MonoBehaviour:
       categories: []
       parentId: 
       parentUniqueId: 
-    - id: 1068
-      uniqueId: '[PlayMode][C:/Users/Menethil/Desktop/UnityProjects/TTD-Unity/TTD-Unity-2D/Library/ScriptAssemblies/PlayMode.dll][suite]'
+    - id: 1020
+      uniqueId: '[PlayMode][C:/Users/User/Desktop/Unity projects/TTD-Unity/TTD-Unity-2D/Library/ScriptAssemblies/PlayMode.dll][suite]'
       name: PlayMode.dll
-      fullName: C:/Users/Menethil/Desktop/UnityProjects/TTD-Unity/TTD-Unity-2D/Library/ScriptAssemblies/PlayMode.dll
+      fullName: C:/Users/User/Desktop/Unity projects/TTD-Unity/TTD-Unity-2D/Library/ScriptAssemblies/PlayMode.dll
       resultStatus: 1
-      duration: 1.1274312
+      duration: 4.5970764
       messages: 
       output: 
       stacktrace: 
@@ -477,7 +477,7 @@ MonoBehaviour:
       description: 
       isSuite: 1
       categories: []
-      parentId: 1057
+      parentId: 1000
       parentUniqueId: '[TTD-Unity-2D][suite]'
     - id: 1058
       uniqueId: PlayMode.dll/[PlayMode][player_movement][suite]
@@ -584,7 +584,7 @@ MonoBehaviour:
       name: TDDBeginner
       fullName: TDDBeginner
       resultStatus: 1
-      duration: 1.1182667
+      duration: 4.566063
       messages: 
       output: 
       stacktrace: 
@@ -600,7 +600,7 @@ MonoBehaviour:
       name: Combats
       fullName: TDDBeginner.Combats
       resultStatus: 1
-      duration: 1.1151263
+      duration: 4.5583935
       messages: 
       output: 
       stacktrace: 
@@ -616,7 +616,7 @@ MonoBehaviour:
       name: player_health
       fullName: TDDBeginner.Combats.player_health
       resultStatus: 1
-      duration: 1.1109
+      duration: 4.5527763
       messages: 
       output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
         This is not allowed.  MonoBehaviours can only be added using AddComponent().
@@ -632,16 +632,30 @@ MonoBehaviour:
       categories: []
       parentId: 1018
       parentUniqueId: PlayMode.dll/TDDBeginner/[PlayMode][TDDBeginner.Combats][suite]
-    - id: 1008
-      uniqueId: PlayMode.dll/TDDBeginner/Combats/player_health/[PlayMode][TDDBeginner.Combats.player_health.player_take_one_damage]
-      name: player_take_one_damage
-      fullName: TDDBeginner.Combats.player_health.player_take_one_damage
-      resultStatus: 1
-      duration: 1.0933152
+    - id: 1019
+      uniqueId: PlayMode.dll/TDDBeginner/Combats/player_health/[PlayMode][TDDBeginner.Combats.player_health.player_take_damage_in_one_time_different_damage_value][suite]
+      name: player_take_damage_in_one_time_different_damage_value
+      fullName: TDDBeginner.Combats.player_health.player_take_damage_in_one_time_different_damage_value
+      resultStatus: 0
+      duration: 0
       messages: 
-      output: 'Attack to player
-
-'
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1014
+      parentUniqueId: PlayMode.dll/TDDBeginner/Combats/[PlayMode][TDDBeginner.Combats.player_health][suite]
+    - id: 1015
+      uniqueId: PlayMode.dll/TDDBeginner/Combats/player_health/player_take_damage_in_one_time_different_damage_value/[PlayMode][TDDBeginner.Combats.player_health.player_take_damage_in_one_time_different_damage_value(1)]
+      name: player_take_damage_in_one_time_different_damage_value(1)
+      fullName: TDDBeginner.Combats.player_health.player_take_damage_in_one_time_different_damage_value(1)
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
@@ -649,8 +663,126 @@ MonoBehaviour:
       isSuite: 0
       categories:
       - Uncategorized
-      parentId: 1007
+      parentId: 1019
+      parentUniqueId: PlayMode.dll/TDDBeginner/Combats/player_health/[PlayMode][TDDBeginner.Combats.player_health.player_take_damage_in_one_time_different_damage_value][suite]
+    - id: 1016
+      uniqueId: PlayMode.dll/TDDBeginner/Combats/player_health/player_take_damage_in_one_time_different_damage_value/[PlayMode][TDDBeginner.Combats.player_health.player_take_damage_in_one_time_different_damage_value(2)]
+      name: player_take_damage_in_one_time_different_damage_value(2)
+      fullName: TDDBeginner.Combats.player_health.player_take_damage_in_one_time_different_damage_value(2)
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1019
+      parentUniqueId: PlayMode.dll/TDDBeginner/Combats/player_health/[PlayMode][TDDBeginner.Combats.player_health.player_take_damage_in_one_time_different_damage_value][suite]
+    - id: 1017
+      uniqueId: PlayMode.dll/TDDBeginner/Combats/player_health/player_take_damage_in_one_time_different_damage_value/[PlayMode][TDDBeginner.Combats.player_health.player_take_damage_in_one_time_different_damage_value(5)]
+      name: player_take_damage_in_one_time_different_damage_value(5)
+      fullName: TDDBeginner.Combats.player_health.player_take_damage_in_one_time_different_damage_value(5)
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1019
+      parentUniqueId: PlayMode.dll/TDDBeginner/Combats/player_health/[PlayMode][TDDBeginner.Combats.player_health.player_take_damage_in_one_time_different_damage_value][suite]
+    - id: 1018
+      uniqueId: PlayMode.dll/TDDBeginner/Combats/player_health/player_take_damage_in_one_time_different_damage_value/[PlayMode][TDDBeginner.Combats.player_health.player_take_damage_in_one_time_different_damage_value(10)]
+      name: player_take_damage_in_one_time_different_damage_value(10)
+      fullName: TDDBeginner.Combats.player_health.player_take_damage_in_one_time_different_damage_value(10)
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1019
+      parentUniqueId: PlayMode.dll/TDDBeginner/Combats/player_health/[PlayMode][TDDBeginner.Combats.player_health.player_take_damage_in_one_time_different_damage_value][suite]
+    - id: 1023
+      uniqueId: PlayMode.dll/TDDBeginner/Combats/player_health/[PlayMode][TDDBeginner.Combats.player_health.player_take_one_damage_from_right_up_left_side][suite]
+      name: player_take_one_damage_from_right_up_left_side
+      fullName: TDDBeginner.Combats.player_health.player_take_one_damage_from_right_up_left_side
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1014
       parentUniqueId: PlayMode.dll/TDDBeginner/Combats/[PlayMode][TDDBeginner.Combats.player_health][suite]
+    - id: 1020
+      uniqueId: PlayMode.dll/TDDBeginner/Combats/player_health/player_take_one_damage_from_right_up_left_side/[PlayMode][TDDBeginner.Combats.player_health.player_take_one_damage_from_right_up_left_side(0,1.0f,5)]
+      name: player_take_one_damage_from_right_up_left_side(0,1.0f,5)
+      fullName: TDDBeginner.Combats.player_health.player_take_one_damage_from_right_up_left_side(0,1.0f,5)
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1023
+      parentUniqueId: PlayMode.dll/TDDBeginner/Combats/player_health/[PlayMode][TDDBeginner.Combats.player_health.player_take_one_damage_from_right_up_left_side][suite]
+    - id: 1021
+      uniqueId: PlayMode.dll/TDDBeginner/Combats/player_health/player_take_one_damage_from_right_up_left_side/[PlayMode][TDDBeginner.Combats.player_health.player_take_one_damage_from_right_up_left_side(-1.0f,0.0f,5)]
+      name: player_take_one_damage_from_right_up_left_side(-1.0f,0.0f,5)
+      fullName: TDDBeginner.Combats.player_health.player_take_one_damage_from_right_up_left_side(-1.0f,0.0f,5)
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1023
+      parentUniqueId: PlayMode.dll/TDDBeginner/Combats/player_health/[PlayMode][TDDBeginner.Combats.player_health.player_take_one_damage_from_right_up_left_side][suite]
+    - id: 1022
+      uniqueId: PlayMode.dll/TDDBeginner/Combats/player_health/player_take_one_damage_from_right_up_left_side/[PlayMode][TDDBeginner.Combats.player_health.player_take_one_damage_from_right_up_left_side(1.0f,0.0f,5)]
+      name: player_take_one_damage_from_right_up_left_side(1.0f,0.0f,5)
+      fullName: TDDBeginner.Combats.player_health.player_take_one_damage_from_right_up_left_side(1.0f,0.0f,5)
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1023
+      parentUniqueId: PlayMode.dll/TDDBeginner/Combats/player_health/[PlayMode][TDDBeginner.Combats.player_health.player_take_one_damage_from_right_up_left_side][suite]
     - id: 1069
       uniqueId: PlayMode.dll/[Unity][suite]
       name: Unity
@@ -815,17 +947,13 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1035
       parentUniqueId: PlayMode.dll/Unity/TDD/Movements/player_flip/[PlayMode][Unity.TDD.Movements.player_flip.player_scale_x_result_stop_and_input_came_zero][suite]
-    m_ResultText: 'player_take_one_damage (1.093s)
-
-      ---
-
-      Attack to player'
+    m_ResultText: player_take_damage_in_one_time (4,541s)
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: de055a29
-      m_LastClickedID: 693765598
-      m_ExpandedIDs: 2b223380331f689318ba15a2062417aa99f0e7b06d00d5b2657b71c4e44b331cdc50dd57ffffff7f
+      m_SelectedIDs: fe659e1f
+      m_LastClickedID: 530474494
+      m_ExpandedIDs: 2b223380331f689318ba15a2062417aa99f0e7b06d00d5b27d11bab6657b71c4bf26bee2d6edaef8e44b331cfe659e1fdc50dd57ffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1638,7 +1766,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Animator
-    m_Image: {fileID: 1711060831702674872, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -1673928668082335149, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
@@ -1699,21 +1827,21 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Hierarchy
-    m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 73.6
-    width: 291.8
-    height: 673.4
+    y: 73
+    width: 365
+    height: 861
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 34a5ffff52a5ffff0aa6ffff18a7ffff36a7ffffeea7ffff78a9ffff96a9ffff4eaaffff34abffff52abffff0aacffff82b2ffffa0b2ffff58b3ffffa6b7ffffc4b7ffff78b8ffffc4b8ffffe2b8ffff96b9ffffa8baffffc6baffff7abbffffb8bbffffd6bbffff8abcffffbccfffffdacfffff8ed0ffffe6d0ffff04d1ffffb8d1ffff58d2ffff76d2ffff2ad3ffff28d5ffff38d5ffff56d5ffff0cd6ffffbcdaffffdadaffff8cdbffffd6edfffff4edffff9aeeffff2cefffff4aeffffff2efffffa4f8ffffaaf9ffffcef9fffffcf9ffff5cfbffff
+      m_ExpandedIDs: 12c9ffff30c9ffff92caffffcccaffffeacaffff16ccffff0acdffff28cdffffe8cdffff26ceffff44ceffff70cfffff1ed2ffff3cd2fffffcd2ffff92d3ffffb0d3ffff70d4ffffccd4ffffead4ffffaad5ffff78d6ffff96d6ffff56d7ffffe2d7ffff00d8ffffc0d8fffffed8ffff1cd9ffffdcd9ffff9adbffffbadbffff20ddffff6ce1ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1753,14 +1881,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Scene
-    m_Image: {fileID: 8634526014445323508, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 292.80002
-    y: 73.6
-    width: 497.2
-    height: 673.4
+    x: 366
+    y: 73
+    width: 622
+    height: 861
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: ea64c683ffb3a2346b79d1e900754c46
@@ -1773,9 +1901,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.11142451, y: 1.3036758, z: -0.21573222}
+    m_Target: {x: 6.0081325, y: 12.368001, z: -2.6316705}
     speed: 2
-    m_Value: {x: 0.11142451, y: 1.3036758, z: -0.21573222}
+    m_Value: {x: 6.0081325, y: 12.368001, z: -2.6316705}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1826,9 +1954,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 2.4491417
+    m_Target: 26.381144
     speed: 2
-    m_Value: 2.4491417
+    m_Value: 26.381144
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1846,7 +1974,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: 0.0013099329, y: 0.98998976, z: -0.14083377, w: 0.009208124}
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -1869,204 +1997,14 @@ MonoBehaviour:
   m_MaxSize: {x: 10000, y: 10000}
   m_TitleContent:
     m_Text: Project
-    m_Image: {fileID: -5179483145760003458, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 768
-    width: 745.4
-    height: 313
-  m_ViewDataDictionary: {fileID: 0}
-  m_SearchFilter:
-    m_NameFilter: grass
-    m_ClassNames: []
-    m_AssetLabels: []
-    m_AssetBundleNames: []
-    m_VersionControlStates: []
-    m_SoftLockControlStates: []
-    m_ReferencingInstanceIDs: 
-    m_SceneHandles: 
-    m_ShowAllHits: 0
-    m_SkipHidden: 0
-    m_SearchArea: 1
-    m_Folders:
-    - Assets
-    m_Globs: []
-    m_OriginalText: grass
-  m_ViewMode: 1
-  m_StartGridSize: 16
-  m_LastFolders:
-  - Assets
-  m_LastFoldersGridSize: 16
-  m_LastProjectPath: C:\Users\Menethil\Desktop\UnityProjects\TTD-Unity\TTD-Unity-2D
-  m_LockTracker:
-    m_IsLocked: 1
-  m_FolderTreeState:
-    scrollPos: {x: 0, y: 31}
-    m_SelectedIDs: 92470000
-    m_LastClickedID: 18322
-    m_ExpandedIDs: 00000000924700009447000096470000984700009a4700009c4700009e470000a0470000a2470000a4470000a6470000e0470000
-    m_RenameOverlay:
-      m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
-      m_EditFieldRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      m_UserData: 0
-      m_IsWaitingForDelay: 0
-      m_IsRenaming: 0
-      m_OriginalEventType: 11
-      m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 12}
-    m_SearchString: 
-    m_CreateAssetUtility:
-      m_EndAction: {fileID: 0}
-      m_InstanceID: 0
-      m_Path: 
-      m_Icon: {fileID: 0}
-      m_ResourceFile: 
-  m_AssetTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: 00000000924700009447000096470000984700009a4700009c4700009e470000a0470000a2470000a4470000a6470000
-    m_RenameOverlay:
-      m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
-      m_EditFieldRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      m_UserData: 0
-      m_IsWaitingForDelay: 0
-      m_IsRenaming: 0
-      m_OriginalEventType: 11
-      m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
-    m_SearchString: 
-    m_CreateAssetUtility:
-      m_EndAction: {fileID: 0}
-      m_InstanceID: 0
-      m_Path: 
-      m_Icon: {fileID: 0}
-      m_ResourceFile: 
-  m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: 943700005c3700007c3700006238000076370000d8390000583800006e370000ba370000e2370000943e000010370000b034000096fd00008636000018c30100883d0000c4791500164200001a290f00bc410000ae410000c24100001a450000e446000042520000a0530000685200006453000020d60400b2b90200145400005a5e0000e0550000cc5e00000a5b0300568e0000a6bb07001a5a0000b2620000f45700004259000046610000fc6b000086600000606d0000aa6100005e620000185f0000125f00007a640000c65c0000ce650000e86a0000c45c0000f25f0000f260000086660000ac6500007269000032650000643d000058ae0000b2ea0000f65b00004afa0000f8750100e4c600004eae0200d8dd00000ac50000e4d90000ecd90000a45c000096ce0100c4b20100c2b201000000000082520300c6cb02007ac90900868f0500024107000841070020710000406b000066680500e46b00006a6805006868050058e901009818020094d8010098fd0400940b02002c1405002adc0100ae4402000aee010092790000a2790000f4930200a67900007a7802001a6c0200b6990200ae7e06008e1e0900265e0400c0bb0a006c752800969200004c920000289200005c7a0300569b0300ce7d00007a020100
-    m_RenameOverlay:
-      m_UserAcceptedRename: 0
-      m_Name: Enemy
-      m_OriginalName: Enemy
-      m_EditFieldRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      m_UserData: 30294
-      m_IsWaitingForDelay: 0
-      m_IsRenaming: 0
-      m_OriginalEventType: 0
-      m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 12}
-    m_CreateAssetUtility:
-      m_EndAction: {fileID: 0}
-      m_InstanceID: 0
-      m_Path: 
-      m_Icon: {fileID: 0}
-      m_ResourceFile: 
-    m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 32}
-    m_GridSize: 16
-  m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 254
---- !u!114 &21
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Console
-    m_Image: {fileID: -4950941429401207979, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 0
-    y: 768
-    width: 745.4
-    height: 313
-  m_ViewDataDictionary: {fileID: 0}
---- !u!114 &22
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12071, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Animation
-    m_Image: {fileID: -3237396543322336831, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 962.4
-    y: 768
-    width: 459.59998
-    height: 313
-  m_ViewDataDictionary: {fileID: 0}
-  m_LockTracker:
-    m_IsLocked: 0
-  m_LastSelectedObjectID: -21710
---- !u!114 &23
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 230, y: 250}
-  m_MaxSize: {x: 10000, y: 10000}
-  m_TitleContent:
-    m_Text: Project
-    m_Image: {fileID: -5179483145760003458, guid: 0000000000000000d000000000000000, type: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 746.4
-    y: 768
-    width: 685.19995
-    height: 313
+    y: 955
+    width: 932
+    height: 404
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -2081,22 +2019,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/GameFolder/Scripts/Tests/PlayMode
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/GameFolder/Scripts/Tests/PlayMode
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: C:\Users\Menethil\Desktop\UnityProjects\TTD-Unity\TTD-Unity-2D
+  m_LastProjectPath: C:\Users\User\Desktop\Unity projects\TTD-Unity\TTD-Unity-2D
   m_LockTracker:
     m_IsLocked: 1
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 427}
-    m_SelectedIDs: e6470000
-    m_LastClickedID: 18406
-    m_ExpandedIDs: 00000000924700009447000096470000984700009a4700009c4700009e470000a0470000a2470000a4470000a6470000dc470000
+    scrollPos: {x: 0, y: 368}
+    m_SelectedIDs: 7c6c0000
+    m_LastClickedID: 27772
+    m_ExpandedIDs: 000000001a6c00001c6c00001e6c0000206c0000226c0000246c0000266c0000286c00002a6c00002c6c00002e6c0000686c00006a6c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2112,7 +2050,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 12}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -2124,7 +2062,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000924700009447000096470000984700009a4700009c4700009e470000a0470000a2470000a4470000a6470000
+    m_ExpandedIDs: 000000001a6c00001c6c00001e6c0000206c0000226c0000246c0000266c0000286c00002a6c00002c6c00002e6c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2152,6 +2090,196 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: 943700005c3700007c3700006238000076370000d8390000583800006e370000ba370000e2370000943e000010370000b034000096fd00008636000018c30100883d0000c4791500164200001a290f00bc410000ae410000c24100001a450000e446000042520000a0530000685200006453000020d60400b2b90200145400005a5e0000e0550000cc5e00000a5b0300568e0000a6bb07001a5a0000b2620000f45700004259000046610000fc6b000086600000606d0000aa6100005e620000185f0000125f00007a640000c65c0000ce650000e86a0000c45c0000f25f0000f260000086660000ac6500007269000032650000643d000058ae0000b2ea0000f65b00004afa0000f8750100e4c600004eae0200d8dd00000ac50000e4d90000ecd90000a45c000096ce0100c4b20100c2b201000000000082520300c6cb02007ac90900868f0500024107000841070020710000406b000066680500e46b00006a6805006868050058e901009818020094d8010098fd0400940b02002c1405002adc0100ae4402000aee010092790000a2790000f4930200a67900007a7802001a6c0200b6990200ae7e06008e1e0900265e0400c0bb0a006c752800969200004c920000289200005c7a0300569b0300ce7d00007a020100
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 12}
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+    m_NewAssetIndexInList: -1
+    m_ScrollPosition: {x: 0, y: 0}
+    m_GridSize: 16
+  m_SkipHiddenPackages: 0
+  m_DirectoriesAreaWidth: 254
+--- !u!114 &21
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Console
+    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 0
+    y: 955
+    width: 932
+    height: 404
+  m_ViewDataDictionary: {fileID: 0}
+--- !u!114 &22
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12071, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Animation
+    m_Image: {fileID: -8166618308981325432, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 962.4
+    y: 768
+    width: 459.59998
+    height: 313
+  m_ViewDataDictionary: {fileID: 0}
+  m_LockTracker:
+    m_IsLocked: 0
+  m_LastSelectedObjectID: -21710
+--- !u!114 &23
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12014, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
+  m_TitleContent:
+    m_Text: Project
+    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 933
+    y: 955
+    width: 857
+    height: 404
+  m_ViewDataDictionary: {fileID: 0}
+  m_SearchFilter:
+    m_NameFilter: 
+    m_ClassNames: []
+    m_AssetLabels: []
+    m_AssetBundleNames: []
+    m_VersionControlStates: []
+    m_SoftLockControlStates: []
+    m_ReferencingInstanceIDs: 
+    m_SceneHandles: 
+    m_ShowAllHits: 0
+    m_SkipHidden: 0
+    m_SearchArea: 1
+    m_Folders:
+    - Assets
+    m_Globs: []
+    m_OriginalText: 
+  m_ViewMode: 1
+  m_StartGridSize: 16
+  m_LastFolders:
+  - Assets
+  m_LastFoldersGridSize: 16
+  m_LastProjectPath: C:\Users\User\Desktop\Unity projects\TTD-Unity\TTD-Unity-2D
+  m_LockTracker:
+    m_IsLocked: 1
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 1a6c0000
+    m_LastClickedID: 27674
+    m_ExpandedIDs: 000000001c6c00001e6c0000206c0000226c0000246c0000266c0000286c00002a6c00002c6c00002e6c000000ca9a3b
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_AssetTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: 000000001a6c00001c6c00001e6c0000206c0000226c0000246c0000266c0000286c00002a6c00002c6c00002e6c0000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: 
+      m_OriginalName: 
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: 0
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 11
+      m_IsRenamingFilename: 1
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 
+    m_CreateAssetUtility:
+      m_EndAction: {fileID: 0}
+      m_InstanceID: 0
+      m_Path: 
+      m_Icon: {fileID: 0}
+      m_ResourceFile: 
+  m_ListAreaState:
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 8ae51300
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -2196,7 +2324,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Inspector
-    m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
@@ -2233,7 +2361,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Lighting
-    m_Image: {fileID: -1477008817101679558, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -1347227620855488341, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
@@ -2283,14 +2411,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Game
-    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 792
-    y: 73.6
-    width: 639.6
-    height: 673.4
+    x: 990
+    y: 73
+    width: 800
+    height: 861
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames:
   - UnityEditor.DeviceSimulation.SimulatorWindow
@@ -2309,16 +2437,16 @@ MonoBehaviour:
   m_VSyncEnabled: 0
   m_Gizmos: 0
   m_Stats: 0
-  m_SelectedSizes: 09000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_SelectedSizes: 08000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -768
-    m_HBaseRangeMax: 768
-    m_VBaseRangeMin: -432
-    m_VBaseRangeMax: 432
+    m_HBaseRangeMin: -960
+    m_HBaseRangeMax: 960
+    m_VBaseRangeMin: -540
+    m_VBaseRangeMax: 540
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -2336,23 +2464,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 639.6
-      height: 652.4
-    m_Scale: {x: 0.41640624, y: 0.41640624}
-    m_Translation: {x: 319.8, y: 326.2}
+      width: 800
+      height: 840
+    m_Scale: {x: 0.41666666, y: 0.41666666}
+    m_Translation: {x: 400, y: 420}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -768
-      y: -783.3696
-      width: 1536
-      height: 1566.7393
+      x: -960
+      y: -1008
+      width: 1920
+      height: 2016
     m_MinimalGUI: 1
-  m_defaultScale: 0.41640624
-  m_LastWindowPixelSize: {x: 799.5, y: 841.75}
+  m_defaultScale: 0.41666666
+  m_LastWindowPixelSize: {x: 800, y: 861}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 00000000000000000000
