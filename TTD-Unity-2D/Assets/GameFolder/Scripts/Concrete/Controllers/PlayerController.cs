@@ -1,5 +1,6 @@
 using System;
 using GameFolder.Scripts.Concretes.Combats;
+using TDDBeginner.Combats;
 using TDDBeginner.Inputs;
 using TDDBeginner.ScriptAbleObjects;
 using Unity.TDD.Abstracts.Combats;
@@ -18,7 +19,7 @@ namespace Unity.TDD.Controllers
         public IInputReader InputReader { get; set; }
         public IPlayerStats Stats => _playerStats;
         public IHealth Health { get; private set; }
-
+        public IAttacker Attacker { get; private set; }
         IMover _mover;
         IFlip _flip;
 
@@ -28,6 +29,7 @@ namespace Unity.TDD.Controllers
             _mover = new PlayerMoveWithTranslate(this);
             _flip = new PlayerFlipWithScale(this);
             Health = new Health(Stats);
+            Attacker = new Attacker(Stats);
         }
 
         void Update()
@@ -43,9 +45,10 @@ namespace Unity.TDD.Controllers
 
         void OnCollisionEnter2D(Collision2D other)
         {
-            //Debug.Log(nameof(OnCollisionEnter2D));
             if (other.collider.TryGetComponent(out IEnemyController enemyController))
             {
+                // if (other.contacts[0].normal.y < 0) return;
+                enemyController.Health.TakeDamage(Attacker);
             }
         }
     }

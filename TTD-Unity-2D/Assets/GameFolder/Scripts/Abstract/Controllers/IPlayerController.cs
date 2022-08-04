@@ -9,5 +9,6 @@ namespace Unity.TDD.Abstracts.Controller
         IInputReader InputReader { get; set; }
         IPlayerStats Stats { get; }
         IHealth Health { get; }
+        IAttacker Attacker { get; }
     }
 }
