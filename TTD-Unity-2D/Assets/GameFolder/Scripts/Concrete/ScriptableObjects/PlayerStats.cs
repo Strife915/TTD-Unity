@@ -9,5 +9,6 @@ namespace TDDBeginner.ScriptAbleObjects
     {
         [SerializeField] float _jumpForce;
         public float JumpForce => _jumpForce;
+        public int Damage { get; }
     }
 }

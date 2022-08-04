@@ -13,6 +13,6 @@ namespace Unity.TDD.Abstracts.ScriptableObjects
     {
         float MoveSpeed { get; }
         int MaxHealth { get; }
-        int CalculateDamage { get; }
+        int Damage { get; }
     }
 }

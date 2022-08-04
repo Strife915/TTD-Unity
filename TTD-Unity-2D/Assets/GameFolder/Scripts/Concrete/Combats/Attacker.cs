@@ -12,6 +12,6 @@ namespace TDDBeginner.Combats
             _stats = stats;
         }
 
-        public int Damage => _stats.CalculateDamage;
+        public int Damage => _stats.Damage;
     }
 }

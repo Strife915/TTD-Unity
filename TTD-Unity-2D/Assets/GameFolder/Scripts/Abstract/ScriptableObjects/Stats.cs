@@ -9,10 +9,9 @@ namespace TDDBeginner.ScriptAbleObjects
 
         [Header("Combat Information")] [SerializeField]
         protected int _maxHealth;
-
         [SerializeField] protected int _damage;
         public float MoveSpeed => _moveSpeed;
         public int MaxHealth => _maxHealth;
-        public int CalculateDamage => _damage;
+        public int Damage => _damage;
     }
 }
