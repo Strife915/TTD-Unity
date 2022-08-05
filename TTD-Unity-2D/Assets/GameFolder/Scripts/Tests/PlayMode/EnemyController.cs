@@ -26,7 +26,7 @@ namespace TDDBeginner.Combats
         {
             if (other.collider.TryGetComponent(out IPlayerController playerController))
             {
-                if(other.contacts[0].normal.y != 1) return;
+                if (other.contacts[0].normal.y < 0) return;
                 playerController.Health.TakeDamage(Attacker);
             }
         }

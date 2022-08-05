@@ -8,7 +8,8 @@ namespace TDDBeginner.ScriptAbleObjects
     public class PlayerStats : Stats, IPlayerStats
     {
         [SerializeField] float _jumpForce;
+
         public float JumpForce => _jumpForce;
-        public int Damage { get; }
+        //public int Damage { get; }
     }
 }

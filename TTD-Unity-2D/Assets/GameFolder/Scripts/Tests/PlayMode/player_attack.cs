@@ -23,7 +23,7 @@ namespace TDDBeginner.Combats
             int initialHealth = enemy.Health.CurrentHealth;
 
             //Act
-            Vector3 enemyUpPosition = enemy.transform.position + Vector3.up;
+            Vector3 enemyUpPosition = enemy.transform.position + (Vector3.up / 2);
             player.transform.position = enemyUpPosition;
 
             //Assert

@@ -39,7 +39,7 @@ namespace TDDBeginner.Combats
             _enemyStats.Damage.Returns(damageValue);
             int maxHealth = _player.Health.CurrentHealth;
             Vector3 playerPosition = _player.transform.position;
-            _enemy.transform.position = playerPosition;
+            _enemy.transform.position = playerPosition + (Vector3.right / 2);
 
             yield return new WaitForSeconds(1f);
 
@@ -47,34 +47,34 @@ namespace TDDBeginner.Combats
         }
 
         [UnityTest]
-        [TestCase(0,1f,5, ExpectedResult = (IEnumerator)null)]
-        [TestCase(-1f,0f,5, ExpectedResult = (IEnumerator)null)]
-        [TestCase(1f,0f,5, ExpectedResult = (IEnumerator)null)]
-        public IEnumerator player_take_one_damage_from_right_up_left_side(float x,float y,int damageValue)
+        [TestCase(0, 1f, 5, ExpectedResult = (IEnumerator)null)]
+        [TestCase(-1f, 0f, 5, ExpectedResult = (IEnumerator)null)]
+        [TestCase(1f, 0f, 5, ExpectedResult = (IEnumerator)null)]
+        public IEnumerator player_take_damage_from_right_up_left_side(float x, float y, int damageValue)
         {
             Vector3 attackPosition = new Vector3(x, y, 0f);
             int maxHealth = _player.Health.CurrentHealth;
             _enemy.Attacker = new Attacker(_enemyStats);
             _enemyStats.Damage.Returns(damageValue);
-            Vector3 playerNearestPosition = _player.transform.position + (attackPosition/2);
+            Vector3 playerNearestPosition = _player.transform.position + (attackPosition / 2);
             _enemy.transform.position = playerNearestPosition;
 
-            yield return new WaitForSeconds(1f);
-            Assert.AreEqual(maxHealth - damageValue,_player.Health.CurrentHealth);
+            yield return new WaitForSeconds(3f);
+            Assert.AreEqual(maxHealth - damageValue, _player.Health.CurrentHealth);
         }
-        
+
         [UnityTest]
         public IEnumerator player_immune_to_damage_from_bottom()
         {
             int damageValue = 1;
             _enemyStats.Damage.Returns(damageValue);
             int maxHealth = _player.Health.CurrentHealth;
-            Vector3 playerNearestPosition = _player.transform.position + (Vector3.down/2f);
+            Vector3 playerNearestPosition = _player.transform.position + (Vector3.down / 2f);
             _enemy.transform.position = playerNearestPosition;
 
             yield return new WaitForSeconds(1f);
-            
-            Assert.AreEqual(maxHealth,_player.Health.CurrentHealth);
+
+            Assert.AreEqual(maxHealth, _player.Health.CurrentHealth);
         }
     }
 }

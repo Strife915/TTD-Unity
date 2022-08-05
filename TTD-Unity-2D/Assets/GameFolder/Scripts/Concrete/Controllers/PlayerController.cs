@@ -16,10 +16,10 @@ namespace Unity.TDD.Controllers
     public class PlayerController : MonoBehaviour, IPlayerController
     {
         [SerializeField] PlayerStats _playerStats;
+        public IAttacker Attacker { get; private set; }
         public IInputReader InputReader { get; set; }
         public IPlayerStats Stats => _playerStats;
         public IHealth Health { get; private set; }
-        public IAttacker Attacker { get; private set; }
         IMover _mover;
         IFlip _flip;
 
@@ -47,7 +47,6 @@ namespace Unity.TDD.Controllers
         {
             if (other.collider.TryGetComponent(out IEnemyController enemyController))
             {
-                // if (other.contacts[0].normal.y < 0) return;
                 enemyController.Health.TakeDamage(Attacker);
             }
         }

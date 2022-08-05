@@ -7,11 +7,11 @@ namespace TDDBeginner.Combats
     {
         readonly IStats _stats;
 
+        public int Damage => _stats.Damage;
+
         public Attacker(IStats stats)
         {
             _stats = stats;
         }
-
-        public int Damage => _stats.Damage;
     }
 }
