@@ -7,6 +7,8 @@ namespace Unity.TDD.Movements
         readonly IPlayerController _playerController;
         readonly IJumpDal _jumpDal;
         bool _canJump;
+        int _currentJumpCounter = 0;
+        int _maxJumpCounter = 1;
 
         public PlayerJumpManager(IPlayerController playerController, IJumpDal jumpDal)
         {
@@ -16,10 +18,10 @@ namespace Unity.TDD.Movements
 
         public void Tick()
         {
-            if (_playerController.InputReader.Jump)
+            if (_playerController.InputReader.Jump && _currentJumpCounter < _maxJumpCounter)
             {
+                _currentJumpCounter++;
                 _canJump = true;
-                _jumpDal.JumpProcess();
             }
         }
 
@@ -31,6 +33,11 @@ namespace Unity.TDD.Movements
             }
 
             _canJump = false;
+        }
+
+        public void ResetCounter()
+        {
+            _currentJumpCounter = 0;
         }
     }
 }
