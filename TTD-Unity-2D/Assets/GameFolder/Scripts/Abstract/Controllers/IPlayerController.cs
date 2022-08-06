@@ -1,6 +1,7 @@
 ﻿using Unity.TDD.Abstracts.Combats;
 using Unity.TDD.Abstracts.Inputs;
 using Unity.TDD.Abstracts.ScriptableObjects;
+using Unity.TDD.Movements;
 
 namespace Unity.TDD.Abstracts.Controller
 {
@@ -10,5 +11,6 @@ namespace Unity.TDD.Abstracts.Controller
         IAttacker Attacker { get; }
         IPlayerStats Stats { get; }
         IHealth Health { get; }
+        IJumpService JumpManager { get; }
     }
 }

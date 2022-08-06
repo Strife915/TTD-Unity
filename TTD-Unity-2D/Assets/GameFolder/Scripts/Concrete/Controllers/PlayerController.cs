@@ -20,6 +20,7 @@ namespace Unity.TDD.Controllers
         public IInputReader InputReader { get; set; }
         public IPlayerStats Stats => _playerStats;
         public IHealth Health { get; private set; }
+        public IJumpService JumpManager { get; private set; }
         IMover _mover;
         IFlip _flip;
 
@@ -30,17 +31,20 @@ namespace Unity.TDD.Controllers
             _flip = new PlayerFlipWithScale(this);
             Health = new Health(Stats);
             Attacker = new Attacker(Stats);
+            JumpManager = new PlayerJumpManager(this, new PlayerForceJumpDal(this));
         }
 
         void Update()
         {
             _mover.Tick();
             _flip.Tick();
+            JumpManager.Tick();
         }
 
         void FixedUpdate()
         {
             _mover.FixedTick();
+            JumpManager.FixedTick();
         }
 
         void OnCollisionEnter2D(Collision2D other)
