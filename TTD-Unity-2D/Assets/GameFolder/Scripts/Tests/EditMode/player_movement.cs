@@ -6,6 +6,7 @@ using UnityEngine.TestTools;
 using NSubstitute;
 using Unity.TDD.Abstracts.Inputs;
 using Unity.TDD.Abstracts.ScriptableObjects;
+using Unity.TDD.EditTests.Helpers;
 using Unity.TDD.Movements;
 
 namespace Unity.TDD.PlayModeTest
@@ -14,11 +15,7 @@ namespace Unity.TDD.PlayModeTest
     {
         IPlayerController GetPlayer()
         {
-            IPlayerController playerController = Substitute.For<IPlayerController>();
-            GameObject gameObject = new GameObject();
-            playerController.transform.Returns(gameObject.transform);
-            playerController.InputReader = Substitute.For<IInputReader>();
-            playerController.Stats.Returns(Substitute.For<IPlayerStats>());
+            var playerController = EditModeHelper.GetPlayerController();
             playerController.Stats.MoveSpeed.Returns(5f);
 
             return playerController;
