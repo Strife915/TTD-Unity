@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using NSubstitute;
 using NUnit.Framework;
 using Unity.TDD.Abstracts.Controller;
@@ -9,54 +8,57 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.TestTools;
 
-public class player_movement
+namespace TDDBeginner.Movement
 {
-    IPlayerController _playerController;
-
-    IEnumerator LoadPlayerMoveTestScene()
+    public class player_movement
     {
-        yield return SceneManager.LoadSceneAsync("PlayerMovementTest");
-    }
+        IPlayerController _playerController;
 
-    [UnitySetUp]
-    IEnumerator Setup()
-    {
-        yield return LoadPlayerMoveTestScene();
-        _playerController = GameObject.FindObjectOfType<PlayerController>();
-        _playerController.InputReader = Substitute.For<IInputReader>();
-    }
+        IEnumerator LoadPlayerMoveTestScene()
+        {
+            yield return SceneManager.LoadSceneAsync("PlayerMovementTest");
+        }
 
-    [UnityTest]
-    [TestCase(1f, ExpectedResult = (IEnumerator)null)]
-    [TestCase(-1f, ExpectedResult = (IEnumerator)null)]
-    public IEnumerator player_move_left_or_right_not_equal_start_position(float inputValue)
-    {
-        //Arrange
-        Vector3 startPosition = _playerController.transform.position;
-        //Act
-        _playerController.InputReader.Horizontal.Returns(inputValue);
-        yield return new WaitForSeconds(3f);
-        //Assert
-        Assert.AreNotEqual(startPosition, _playerController.transform.position);
-    }
+        [UnitySetUp]
+        IEnumerator Setup()
+        {
+            yield return LoadPlayerMoveTestScene();
+            _playerController = GameObject.FindObjectOfType<PlayerController>();
+            _playerController.InputReader = Substitute.For<IInputReader>();
+        }
 
-    [UnityTest]
-    public IEnumerator player_move_right_end_position_greater_than_start_position()
-    {
-        Vector3 startPosition = _playerController.transform.position;
+        [UnityTest]
+        [TestCase(1f, ExpectedResult = (IEnumerator)null)]
+        [TestCase(-1f, ExpectedResult = (IEnumerator)null)]
+        public IEnumerator player_move_left_or_right_not_equal_start_position(float inputValue)
+        {
+            //Arrange
+            Vector3 startPosition = _playerController.transform.position;
+            //Act
+            _playerController.InputReader.Horizontal.Returns(inputValue);
+            yield return new WaitForSeconds(3f);
+            //Assert
+            Assert.AreNotEqual(startPosition, _playerController.transform.position);
+        }
 
-        _playerController.InputReader.Horizontal.Returns(1f);
-        yield return new WaitForSeconds(3f);
-        Assert.Greater(_playerController.transform.position.x, startPosition.x);
-    }
+        [UnityTest]
+        public IEnumerator player_move_right_end_position_greater_than_start_position()
+        {
+            Vector3 startPosition = _playerController.transform.position;
 
-    [UnityTest]
-    public IEnumerator player_move_left_end_position_greater_than_start_position()
-    {
-        Vector3 startPosition = _playerController.transform.position;
+            _playerController.InputReader.Horizontal.Returns(1f);
+            yield return new WaitForSeconds(3f);
+            Assert.Greater(_playerController.transform.position.x, startPosition.x);
+        }
 
-        _playerController.InputReader.Horizontal.Returns(-1f);
-        yield return new WaitForSeconds(3f);
-        Assert.Less(_playerController.transform.position.x, startPosition.x);
+        [UnityTest]
+        public IEnumerator player_move_left_end_position_greater_than_start_position()
+        {
+            Vector3 startPosition = _playerController.transform.position;
+
+            _playerController.InputReader.Horizontal.Returns(-1f);
+            yield return new WaitForSeconds(3f);
+            Assert.Less(_playerController.transform.position.x, startPosition.x);
+        }
     }
 }

@@ -47,6 +47,7 @@ namespace Unity.TDD.Controllers
         {
             if (other.collider.TryGetComponent(out IEnemyController enemyController))
             {
+                if (other.contacts[0].normal.y != 1f) return;
                 enemyController.Health.TakeDamage(Attacker);
             }
         }

@@ -14,16 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 0
-    y: 43.2
-    width: 2048
-    height: 1078.4
+    x: 7.2000003
+    y: 50.4
+    width: 2033.6
+    height: 1064
   m_ShowMode: 4
   m_Title: Hierarchy
   m_RootView: {fileID: 3}
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
-  m_Maximized: 1
+  m_Maximized: 0
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -39,12 +39,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 824.8
+    x: 818.4
     y: 0
-    width: 615.2
-    height: 693.6
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+    width: 611.19995
+    height: 684
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 27}
   m_Panes:
   - {fileID: 27}
@@ -70,9 +70,9 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 2048
-    height: 1078.4
-  m_MinSize: {x: 875, y: 300}
+    width: 2033.6
+    height: 1064
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -95,7 +95,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 2048
+    width: 2033.6
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -119,8 +119,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 1058.4
-    width: 2048
+    y: 1044
+    width: 2033.6
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -143,12 +143,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 2048
-    height: 1028.4
-  m_MinSize: {x: 605, y: 492}
-  m_MaxSize: {x: 18002, y: 14042}
+    width: 2033.6
+    height: 1014
+  m_MinSize: {x: 781, y: 492}
+  m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 191
+  controlID: 508
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -168,12 +168,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1440
-    height: 1028.4
+    width: 1429.6
+    height: 1014
   m_MinSize: {x: 505, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+  m_MaxSize: {x: 14003, y: 14042}
   vertical: 1
-  controlID: 85
+  controlID: 90
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -194,12 +194,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1440
-    height: 693.6
+    width: 1429.6
+    height: 684
   m_MinSize: {x: 505, y: 221}
   m_MaxSize: {x: 12005, y: 4021}
   vertical: 0
-  controlID: 86
+  controlID: 91
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -217,8 +217,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 290.4
-    height: 693.6
+    width: 288
+    height: 684
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 18}
@@ -241,10 +241,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 290.4
+    x: 288
     y: 0
-    width: 534.4
-    height: 693.6
+    width: 530.4
+    height: 684
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 19}
@@ -270,13 +270,13 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 693.6
-    width: 1440
-    height: 334.80005
-  m_MinSize: {x: 332, y: 271}
-  m_MaxSize: {x: 14002, y: 10021}
+    y: 684
+    width: 1429.6
+    height: 330
+  m_MinSize: {x: 333, y: 271}
+  m_MaxSize: {x: 14003, y: 10021}
   vertical: 0
-  controlID: 108
+  controlID: 334
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -294,10 +294,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 872
-    height: 334.80005
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+    width: 865.6
+    height: 330
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 20}
@@ -319,10 +319,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 872
+    x: 865.6
     y: 0
-    width: 568
-    height: 334.80005
+    width: 564
+    height: 330
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
   m_ActualView: {fileID: 23}
@@ -342,26 +342,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: TestRunnerWindow
+  m_Name: InspectorWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1440
+    x: 1429.6
     y: 0
-    width: 608
-    height: 1028.4
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 16}
+    width: 604
+    height: 1014
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 24}
   m_Panes:
   - {fileID: 24}
   - {fileID: 16}
   - {fileID: 25}
   - {fileID: 26}
   - {fileID: 15}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -414,18 +414,18 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1440
-    y: 73.6
-    width: 607
-    height: 1007.4
+    x: 1436.8
+    y: 80.8
+    width: 603
+    height: 993
   m_ViewDataDictionary: {fileID: 0}
   m_Spl:
-    ID: 223
+    ID: 238
     splitterInitialOffset: 0
     currentActiveSplitter: -1
     realSizes:
-    - 702.4
-    - 234.4
+    - 692
+    - 231.20001
     relativeSizes:
     - 0.75
     - 0.25
@@ -435,7 +435,7 @@ MonoBehaviour:
     maxSizes:
     - 0
     - 0
-    lastTotalSize: 936.8
+    lastTotalSize: 923.2
     splitSize: 6
     xOffset: 0
     m_Version: 1
@@ -451,9 +451,9 @@ MonoBehaviour:
       uniqueId: '[TTD-Unity-2D][suite]'
       name: TTD-Unity-2D
       fullName: TTD-Unity-2D
-      resultStatus: 2
-      duration: 1.353859
-      messages: One or more child tests had errors
+      resultStatus: 1
+      duration: 46.373207
+      messages: 
       output: 
       stacktrace: 
       notRunnable: 0
@@ -463,13 +463,13 @@ MonoBehaviour:
       categories: []
       parentId: 
       parentUniqueId: 
-    - id: 1024
-      uniqueId: '[PlayMode][C:/Users/Menethil/Desktop/UnityProjects/TTD-Unity/TTD-Unity-2D/Library/ScriptAssemblies/PlayMode.dll][suite]'
+    - id: 1028
+      uniqueId: '[PlayMode.dll][suite]'
       name: PlayMode.dll
       fullName: C:/Users/Menethil/Desktop/UnityProjects/TTD-Unity/TTD-Unity-2D/Library/ScriptAssemblies/PlayMode.dll
-      resultStatus: 2
-      duration: 1.234283
-      messages: One or more child tests had errors
+      resultStatus: 0
+      duration: 0
+      messages: 
       output: 
       stacktrace: 
       notRunnable: 0
@@ -479,113 +479,13 @@ MonoBehaviour:
       categories: []
       parentId: 1000
       parentUniqueId: '[TTD-Unity-2D][suite]'
-    - id: 1058
-      uniqueId: PlayMode.dll/[PlayMode][player_movement][suite]
-      name: player_movement
-      fullName: player_movement
-      resultStatus: 1
-      duration: 12.364724
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1068
-      parentUniqueId: '[PlayMode][C:/Users/Menethil/Desktop/UnityProjects/TTD-Unity/TTD-Unity-2D/Library/ScriptAssemblies/PlayMode.dll][suite]'
-    - id: 1063
-      uniqueId: PlayMode.dll/player_movement/[PlayMode][player_movement.player_move_left_end_position_greater_than_start_position]
-      name: player_move_left_end_position_greater_than_start_position
-      fullName: player_movement.player_move_left_end_position_greater_than_start_position
-      resultStatus: 1
-      duration: 3.1766467
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1058
-      parentUniqueId: PlayMode.dll/[PlayMode][player_movement][suite]
-    - id: 1061
-      uniqueId: PlayMode.dll/player_movement/[PlayMode][player_movement.player_move_left_or_right_not_equal_start_position][suite]
-      name: player_move_left_or_right_not_equal_start_position
-      fullName: player_movement.player_move_left_or_right_not_equal_start_position
-      resultStatus: 1
-      duration: 6.119894
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 1
-      categories: []
-      parentId: 1058
-      parentUniqueId: PlayMode.dll/[PlayMode][player_movement][suite]
-    - id: 1059
-      uniqueId: PlayMode.dll/player_movement/player_move_left_or_right_not_equal_start_position/[PlayMode][player_movement.player_move_left_or_right_not_equal_start_position(1.0f)]
-      name: player_move_left_or_right_not_equal_start_position(1.0f)
-      fullName: player_movement.player_move_left_or_right_not_equal_start_position(1.0f)
-      resultStatus: 1
-      duration: 3.0579102
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1061
-      parentUniqueId: PlayMode.dll/player_movement/[PlayMode][player_movement.player_move_left_or_right_not_equal_start_position][suite]
-    - id: 1060
-      uniqueId: PlayMode.dll/player_movement/player_move_left_or_right_not_equal_start_position/[PlayMode][player_movement.player_move_left_or_right_not_equal_start_position(-1.0f)]
-      name: player_move_left_or_right_not_equal_start_position(-1.0f)
-      fullName: player_movement.player_move_left_or_right_not_equal_start_position(-1.0f)
-      resultStatus: 1
-      duration: 3.056394
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1061
-      parentUniqueId: PlayMode.dll/player_movement/[PlayMode][player_movement.player_move_left_or_right_not_equal_start_position][suite]
-    - id: 1062
-      uniqueId: PlayMode.dll/player_movement/[PlayMode][player_movement.player_move_right_end_position_greater_than_start_position]
-      name: player_move_right_end_position_greater_than_start_position
-      fullName: player_movement.player_move_right_end_position_greater_than_start_position
-      resultStatus: 1
-      duration: 3.055761
-      messages: 
-      output: 
-      stacktrace: 
-      notRunnable: 0
-      ignoredOrSkipped: 0
-      description: 
-      isSuite: 0
-      categories:
-      - Uncategorized
-      parentId: 1058
-      parentUniqueId: PlayMode.dll/[PlayMode][player_movement][suite]
     - id: 1017
       uniqueId: PlayMode.dll/[TDDBeginner][suite]
       name: TDDBeginner
       fullName: TDDBeginner
-      resultStatus: 2
-      duration: 1.2288797
-      messages: One or more child tests had errors
+      resultStatus: 1
+      duration: 15.554211
+      messages: 
       output: 
       stacktrace: 
       notRunnable: 0
@@ -599,9 +499,9 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/TDDBeginner/[PlayMode][TDDBeginner.Combats][suite]
       name: Combats
       fullName: TDDBeginner.Combats
-      resultStatus: 2
-      duration: 1.2255701
-      messages: One or more child tests had errors
+      resultStatus: 1
+      duration: 15.548982
+      messages: 
       output: 
       stacktrace: 
       notRunnable: 0
@@ -615,9 +515,9 @@ MonoBehaviour:
       uniqueId: PlayMode.dll/TDDBeginner/Combats/[PlayMode][TDDBeginner.Combats.player_attack][suite]
       name: player_attack
       fullName: TDDBeginner.Combats.player_attack
-      resultStatus: 2
-      duration: 1.2200214
-      messages: One or more child tests had errors
+      resultStatus: 1
+      duration: 1.050942
+      messages: 
       output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
         This is not allowed.  MonoBehaviours can only be added using AddComponent().
         Alternatively, your script can inherit from ScriptableObject or no base class
@@ -632,22 +532,32 @@ MonoBehaviour:
       categories: []
       parentId: 1032
       parentUniqueId: PlayMode.dll/TDDBeginner/[PlayMode][TDDBeginner.Combats][suite]
+    - id: 1016
+      uniqueId: PlayMode.dll/TDDBeginner/Combats/player_attack/[PlayMode][TDDBeginner.Combats.player_attack.player_attack_enemy_from_left_side]
+      name: player_attack_enemy_from_left_side
+      fullName: TDDBeginner.Combats.player_attack.player_attack_enemy_from_left_side
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1014
+      parentUniqueId: PlayMode.dll/TDDBeginner/Combats/[PlayMode][TDDBeginner.Combats.player_attack][suite]
     - id: 1015
       uniqueId: PlayMode.dll/TDDBeginner/Combats/player_attack/[PlayMode][TDDBeginner.Combats.player_attack.player_attack_enemy_one_time]
       name: player_attack_enemy_one_time
       fullName: TDDBeginner.Combats.player_attack.player_attack_enemy_one_time
-      resultStatus: 2
-      duration: 1.2012016
-      messages: "  Expected: not equal to 100\r\n  But was:  100\r\n"
+      resultStatus: 1
+      duration: 1.0434026
+      messages: 
       output: 
-      stacktrace: 'at TDDBeginner.Combats.player_attack+<player_attack_enemy_one_time>d__0.MoveNext
-        () [0x000f8] in C:\Users\Menethil\Desktop\UnityProjects\TTD-Unity\TTD-Unity-2D\Assets\GameFolder\Scripts\Tests\PlayMode\player_attack.cs:31
-
-        at
-        UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e]
-        in C:\Users\Menethil\Desktop\UnityProjects\TTD-Unity\TTD-Unity-2D\Library\PackageCache\com.unity.test-framework@1.1.31\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:46
-
-'
+      stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
       description: 
@@ -661,7 +571,7 @@ MonoBehaviour:
       name: player_health
       fullName: TDDBeginner.Combats.player_health
       resultStatus: 1
-      duration: 1.2365228
+      duration: 14.495182
       messages: 
       output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
         This is not allowed.  MonoBehaviours can only be added using AddComponent().
@@ -682,7 +592,7 @@ MonoBehaviour:
       name: player_immune_to_damage_from_bottom
       fullName: TDDBeginner.Combats.player_health.player_immune_to_damage_from_bottom
       resultStatus: 1
-      duration: 1.2173195
+      duration: 1.0563056
       messages: 
       output: 
       stacktrace: 
@@ -694,12 +604,79 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1014
       parentUniqueId: PlayMode.dll/TDDBeginner/Combats/[PlayMode][TDDBeginner.Combats.player_health][suite]
+    - id: 1025
+      uniqueId: PlayMode.dll/TDDBeginner/Combats/player_health/[PlayMode][TDDBeginner.Combats.player_health.player_take_damage_from_right_up_left_side][suite]
+      name: player_take_damage_from_right_up_left_side
+      fullName: TDDBeginner.Combats.player_health.player_take_damage_from_right_up_left_side
+      resultStatus: 1
+      duration: 9.191458
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1016
+      parentUniqueId: PlayMode.dll/TDDBeginner/Combats/[PlayMode][TDDBeginner.Combats.player_health][suite]
+    - id: 1022
+      uniqueId: PlayMode.dll/TDDBeginner/Combats/player_health/player_take_damage_from_right_up_left_side/[PlayMode][TDDBeginner.Combats.player_health.player_take_damage_from_right_up_left_side(0,1.0f,5)]
+      name: player_take_damage_from_right_up_left_side(0,1.0f,5)
+      fullName: TDDBeginner.Combats.player_health.player_take_damage_from_right_up_left_side(0,1.0f,5)
+      resultStatus: 1
+      duration: 3.055767
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1025
+      parentUniqueId: PlayMode.dll/TDDBeginner/Combats/player_health/[PlayMode][TDDBeginner.Combats.player_health.player_take_damage_from_right_up_left_side][suite]
+    - id: 1023
+      uniqueId: PlayMode.dll/TDDBeginner/Combats/player_health/player_take_damage_from_right_up_left_side/[PlayMode][TDDBeginner.Combats.player_health.player_take_damage_from_right_up_left_side(-1.0f,0.0f,5)]
+      name: player_take_damage_from_right_up_left_side(-1.0f,0.0f,5)
+      fullName: TDDBeginner.Combats.player_health.player_take_damage_from_right_up_left_side(-1.0f,0.0f,5)
+      resultStatus: 1
+      duration: 3.0681157
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1025
+      parentUniqueId: PlayMode.dll/TDDBeginner/Combats/player_health/[PlayMode][TDDBeginner.Combats.player_health.player_take_damage_from_right_up_left_side][suite]
+    - id: 1024
+      uniqueId: PlayMode.dll/TDDBeginner/Combats/player_health/player_take_damage_from_right_up_left_side/[PlayMode][TDDBeginner.Combats.player_health.player_take_damage_from_right_up_left_side(1.0f,0.0f,5)]
+      name: player_take_damage_from_right_up_left_side(1.0f,0.0f,5)
+      fullName: TDDBeginner.Combats.player_health.player_take_damage_from_right_up_left_side(1.0f,0.0f,5)
+      resultStatus: 1
+      duration: 3.0618162
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1025
+      parentUniqueId: PlayMode.dll/TDDBeginner/Combats/player_health/[PlayMode][TDDBeginner.Combats.player_health.player_take_damage_from_right_up_left_side][suite]
     - id: 1019
       uniqueId: PlayMode.dll/TDDBeginner/Combats/player_health/[PlayMode][TDDBeginner.Combats.player_health.player_take_damage_in_one_time_different_damage_value][suite]
       name: player_take_damage_in_one_time_different_damage_value
       fullName: TDDBeginner.Combats.player_health.player_take_damage_in_one_time_different_damage_value
       resultStatus: 1
-      duration: 4.3647394
+      duration: 4.239091
       messages: 
       output: 
       stacktrace: 
@@ -715,11 +692,9 @@ MonoBehaviour:
       name: player_take_damage_in_one_time_different_damage_value(1)
       fullName: TDDBeginner.Combats.player_health.player_take_damage_in_one_time_different_damage_value(1)
       resultStatus: 1
-      duration: 1.1779628
+      duration: 1.0570205
       messages: 
-      output: 'Attack to player
-
-'
+      output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
@@ -734,11 +709,9 @@ MonoBehaviour:
       name: player_take_damage_in_one_time_different_damage_value(2)
       fullName: TDDBeginner.Combats.player_health.player_take_damage_in_one_time_different_damage_value(2)
       resultStatus: 1
-      duration: 1.0620182
+      duration: 1.0595162
       messages: 
-      output: 'Attack to player
-
-'
+      output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
@@ -753,11 +726,9 @@ MonoBehaviour:
       name: player_take_damage_in_one_time_different_damage_value(5)
       fullName: TDDBeginner.Combats.player_health.player_take_damage_in_one_time_different_damage_value(5)
       resultStatus: 1
-      duration: 1.0535142
+      duration: 1.0573583
       messages: 
-      output: 'Attack to player
-
-'
+      output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
@@ -772,11 +743,9 @@ MonoBehaviour:
       name: player_take_damage_in_one_time_different_damage_value(10)
       fullName: TDDBeginner.Combats.player_health.player_take_damage_in_one_time_different_damage_value(10)
       resultStatus: 1
-      duration: 1.0558693
+      duration: 1.0583308
       messages: 
-      output: 'Attack to player
-
-'
+      output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
@@ -786,12 +755,12 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1019
       parentUniqueId: PlayMode.dll/TDDBeginner/Combats/player_health/[PlayMode][TDDBeginner.Combats.player_health.player_take_damage_in_one_time_different_damage_value][suite]
-    - id: 1023
-      uniqueId: PlayMode.dll/TDDBeginner/Combats/player_health/[PlayMode][TDDBeginner.Combats.player_health.player_take_one_damage_from_right_up_left_side][suite]
-      name: player_take_one_damage_from_right_up_left_side
-      fullName: TDDBeginner.Combats.player_health.player_take_one_damage_from_right_up_left_side
-      resultStatus: 1
-      duration: 3.3419483
+    - id: 1033
+      uniqueId: PlayMode.dll/TDDBeginner/[PlayMode][TDDBeginner.Movement][suite]
+      name: Movement
+      fullName: TDDBeginner.Movement
+      resultStatus: 0
+      duration: 0
       messages: 
       output: 
       stacktrace: 
@@ -800,18 +769,32 @@ MonoBehaviour:
       description: 
       isSuite: 1
       categories: []
-      parentId: 1014
-      parentUniqueId: PlayMode.dll/TDDBeginner/Combats/[PlayMode][TDDBeginner.Combats.player_health][suite]
-    - id: 1020
-      uniqueId: PlayMode.dll/TDDBeginner/Combats/player_health/player_take_one_damage_from_right_up_left_side/[PlayMode][TDDBeginner.Combats.player_health.player_take_one_damage_from_right_up_left_side(0,1.0f,5)]
-      name: player_take_one_damage_from_right_up_left_side(0,1.0f,5)
-      fullName: TDDBeginner.Combats.player_health.player_take_one_damage_from_right_up_left_side(0,1.0f,5)
-      resultStatus: 1
-      duration: 1.1962723
+      parentId: 1032
+      parentUniqueId: PlayMode.dll/[TDDBeginner][suite]
+    - id: 1008
+      uniqueId: PlayMode.dll/TDDBeginner/Movement/[PlayMode][TDDBeginner.Movement.player_movement][suite]
+      name: player_movement
+      fullName: TDDBeginner.Movement.player_movement
+      resultStatus: 0
+      duration: 0
       messages: 
-      output: 'Attack to player
-
-'
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1033
+      parentUniqueId: PlayMode.dll/TDDBeginner/[PlayMode][TDDBeginner.Movement][suite]
+    - id: 1013
+      uniqueId: PlayMode.dll/TDDBeginner/Movement/player_movement/[PlayMode][TDDBeginner.Movement.player_movement.player_move_left_end_position_greater_than_start_position]
+      name: player_move_left_end_position_greater_than_start_position
+      fullName: TDDBeginner.Movement.player_movement.player_move_left_end_position_greater_than_start_position
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
@@ -819,18 +802,32 @@ MonoBehaviour:
       isSuite: 0
       categories:
       - Uncategorized
-      parentId: 1023
-      parentUniqueId: PlayMode.dll/TDDBeginner/Combats/player_health/[PlayMode][TDDBeginner.Combats.player_health.player_take_one_damage_from_right_up_left_side][suite]
-    - id: 1021
-      uniqueId: PlayMode.dll/TDDBeginner/Combats/player_health/player_take_one_damage_from_right_up_left_side/[PlayMode][TDDBeginner.Combats.player_health.player_take_one_damage_from_right_up_left_side(-1.0f,0.0f,5)]
-      name: player_take_one_damage_from_right_up_left_side(-1.0f,0.0f,5)
-      fullName: TDDBeginner.Combats.player_health.player_take_one_damage_from_right_up_left_side(-1.0f,0.0f,5)
-      resultStatus: 1
-      duration: 1.0688978
+      parentId: 1008
+      parentUniqueId: PlayMode.dll/TDDBeginner/Movement/[PlayMode][TDDBeginner.Movement.player_movement][suite]
+    - id: 1011
+      uniqueId: PlayMode.dll/TDDBeginner/Movement/player_movement/[PlayMode][TDDBeginner.Movement.player_movement.player_move_left_or_right_not_equal_start_position][suite]
+      name: player_move_left_or_right_not_equal_start_position
+      fullName: TDDBeginner.Movement.player_movement.player_move_left_or_right_not_equal_start_position
+      resultStatus: 0
+      duration: 0
       messages: 
-      output: 'Attack to player
-
-'
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1008
+      parentUniqueId: PlayMode.dll/TDDBeginner/Movement/[PlayMode][TDDBeginner.Movement.player_movement][suite]
+    - id: 1009
+      uniqueId: PlayMode.dll/TDDBeginner/Movement/player_movement/player_move_left_or_right_not_equal_start_position/[PlayMode][TDDBeginner.Movement.player_movement.player_move_left_or_right_not_equal_start_position(1.0f)]
+      name: player_move_left_or_right_not_equal_start_position(1.0f)
+      fullName: TDDBeginner.Movement.player_movement.player_move_left_or_right_not_equal_start_position(1.0f)
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
@@ -838,18 +835,16 @@ MonoBehaviour:
       isSuite: 0
       categories:
       - Uncategorized
-      parentId: 1023
-      parentUniqueId: PlayMode.dll/TDDBeginner/Combats/player_health/[PlayMode][TDDBeginner.Combats.player_health.player_take_one_damage_from_right_up_left_side][suite]
-    - id: 1022
-      uniqueId: PlayMode.dll/TDDBeginner/Combats/player_health/player_take_one_damage_from_right_up_left_side/[PlayMode][TDDBeginner.Combats.player_health.player_take_one_damage_from_right_up_left_side(1.0f,0.0f,5)]
-      name: player_take_one_damage_from_right_up_left_side(1.0f,0.0f,5)
-      fullName: TDDBeginner.Combats.player_health.player_take_one_damage_from_right_up_left_side(1.0f,0.0f,5)
-      resultStatus: 1
-      duration: 1.0575784
+      parentId: 1011
+      parentUniqueId: PlayMode.dll/TDDBeginner/Movement/player_movement/[PlayMode][TDDBeginner.Movement.player_movement.player_move_left_or_right_not_equal_start_position][suite]
+    - id: 1010
+      uniqueId: PlayMode.dll/TDDBeginner/Movement/player_movement/player_move_left_or_right_not_equal_start_position/[PlayMode][TDDBeginner.Movement.player_movement.player_move_left_or_right_not_equal_start_position(-1.0f)]
+      name: player_move_left_or_right_not_equal_start_position(-1.0f)
+      fullName: TDDBeginner.Movement.player_movement.player_move_left_or_right_not_equal_start_position(-1.0f)
+      resultStatus: 0
+      duration: 0
       messages: 
-      output: 'Attack to player
-
-'
+      output: 
       stacktrace: 
       notRunnable: 0
       ignoredOrSkipped: 0
@@ -857,14 +852,31 @@ MonoBehaviour:
       isSuite: 0
       categories:
       - Uncategorized
-      parentId: 1023
-      parentUniqueId: PlayMode.dll/TDDBeginner/Combats/player_health/[PlayMode][TDDBeginner.Combats.player_health.player_take_one_damage_from_right_up_left_side][suite]
+      parentId: 1011
+      parentUniqueId: PlayMode.dll/TDDBeginner/Movement/player_movement/[PlayMode][TDDBeginner.Movement.player_movement.player_move_left_or_right_not_equal_start_position][suite]
+    - id: 1012
+      uniqueId: PlayMode.dll/TDDBeginner/Movement/player_movement/[PlayMode][TDDBeginner.Movement.player_movement.player_move_right_end_position_greater_than_start_position]
+      name: player_move_right_end_position_greater_than_start_position
+      fullName: TDDBeginner.Movement.player_movement.player_move_right_end_position_greater_than_start_position
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1008
+      parentUniqueId: PlayMode.dll/TDDBeginner/Movement/[PlayMode][TDDBeginner.Movement.player_movement][suite]
     - id: 1069
       uniqueId: PlayMode.dll/[Unity][suite]
       name: Unity
       fullName: Unity
       resultStatus: 1
-      duration: 6.258075
+      duration: 18.290398
       messages: 
       output: 
       stacktrace: 
@@ -880,7 +892,7 @@ MonoBehaviour:
       name: TDD
       fullName: Unity.TDD
       resultStatus: 1
-      duration: 6.254742
+      duration: 18.284575
       messages: 
       output: 
       stacktrace: 
@@ -896,7 +908,7 @@ MonoBehaviour:
       name: Movements
       fullName: Unity.TDD.Movements
       resultStatus: 1
-      duration: 6.251584
+      duration: 18.280903
       messages: 
       output: 
       stacktrace: 
@@ -912,7 +924,7 @@ MonoBehaviour:
       name: player_flip
       fullName: Unity.TDD.Movements.player_flip
       resultStatus: 1
-      duration: 6.2482123
+      duration: 18.27774
       messages: 
       output: 
       stacktrace: 
@@ -928,7 +940,7 @@ MonoBehaviour:
       name: input_value_1_player_scale_x_result_equal_1
       fullName: Unity.TDD.Movements.player_flip.input_value_1_player_scale_x_result_equal_1
       resultStatus: 1
-      duration: 6.243751
+      duration: 6.1257668
       messages: 
       output: 
       stacktrace: 
@@ -944,7 +956,7 @@ MonoBehaviour:
       name: input_value_1_player_scale_x_result_equal_1(1.0f)
       fullName: Unity.TDD.Movements.player_flip.input_value_1_player_scale_x_result_equal_1(1.0f)
       resultStatus: 1
-      duration: 3.1746852
+      duration: 3.0603676
       messages: 
       output: 
       stacktrace: 
@@ -961,7 +973,7 @@ MonoBehaviour:
       name: input_value_1_player_scale_x_result_equal_1(-1.0f)
       fullName: Unity.TDD.Movements.player_flip.input_value_1_player_scale_x_result_equal_1(-1.0f)
       resultStatus: 1
-      duration: 3.058152
+      duration: 3.0621886
       messages: 
       output: 
       stacktrace: 
@@ -978,7 +990,7 @@ MonoBehaviour:
       name: player_scale_x_result_stop_and_input_came_zero
       fullName: Unity.TDD.Movements.player_flip.player_scale_x_result_stop_and_input_came_zero
       resultStatus: 1
-      duration: 12.0882
+      duration: 12.14851
       messages: 
       output: 
       stacktrace: 
@@ -994,7 +1006,7 @@ MonoBehaviour:
       name: player_scale_x_result_stop_and_input_came_zero(1.0f)
       fullName: Unity.TDD.Movements.player_flip.player_scale_x_result_stop_and_input_came_zero(1.0f)
       resultStatus: 1
-      duration: 6.0398064
+      duration: 6.0642204
       messages: 
       output: 
       stacktrace: 
@@ -1011,7 +1023,7 @@ MonoBehaviour:
       name: player_scale_x_result_stop_and_input_came_zero(-1.0f)
       fullName: Unity.TDD.Movements.player_flip.player_scale_x_result_stop_and_input_came_zero(-1.0f)
       resultStatus: 1
-      duration: 6.0437536
+      duration: 6.078328
       messages: 
       output: 
       stacktrace: 
@@ -1023,24 +1035,13 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1035
       parentUniqueId: PlayMode.dll/Unity/TDD/Movements/player_flip/[PlayMode][Unity.TDD.Movements.player_flip.player_scale_x_result_stop_and_input_came_zero][suite]
-    m_ResultText: "player_attack_enemy_one_time (1.201s)\n---\nExpected: not equal
-      to 100\r\n  But was:  100\n---\nat TDDBeginner.Combats.player_attack+<player_attack_enemy_one_time>d__0.MoveNext
-      () [0x000f8] in C:\\Users\\Menethil\\Desktop\\UnityProjects\\TTD-Unity\\TTD-Unity-2D\\Assets\\GameFolder\\Scripts\\Tests\\PlayMode\\player_attack.cs:31\r\nat
-      UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e] in
-      C:\\Users\\Menethil\\Desktop\\UnityProjects\\TTD-Unity\\TTD-Unity-2D\\Library\\PackageCache\\com.unity.test-framework@1.1.31\\UnityEngine.TestRunner\\NUnitExtensions\\Attributes\\TestEnumerator.cs:46"
-    m_ResultStacktrace: 'at TDDBeginner.Combats.player_attack+<player_attack_enemy_one_time>d__0.MoveNext
-      () [0x000f8] in C:\Users\Menethil\Desktop\UnityProjects\TTD-Unity\TTD-Unity-2D\Assets\GameFolder\Scripts\Tests\PlayMode\player_attack.cs:31
-
-      at
-      UnityEngine.TestTools.TestEnumerator+<Execute>d__7.MoveNext () [0x0004e] in
-      C:\Users\Menethil\Desktop\UnityProjects\TTD-Unity\TTD-Unity-2D\Library\PackageCache\com.unity.test-framework@1.1.31\UnityEngine.TestRunner\NUnitExtensions\Attributes\TestEnumerator.cs:46
-
-'
+    m_ResultText: TDDBeginner (15.554s)
+    m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 96c4e232
-      m_LastClickedID: 853722262
-      m_ExpandedIDs: 2b223380331f689318ba15a2062417aa6d00d5b27d11bab6657b71c4bf26bee2d6edaef87d9947f9e44b331cfe659e1fdc50dd57ffffff7f
+      m_SelectedIDs: dc50dd57
+      m_LastClickedID: 1474121948
+      m_ExpandedIDs: 2b22338010ef7e86331f689318ba15a2062417aaa3489fab99f0e7b06d00d5b29f5c62b67d11bab6bf26bee2fe5dc1e3d6edaef87d9947f9e44b331cfe659e1f98cada3adc50dd57dc5bed6effffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1918,31 +1919,31 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 73.6
-    width: 289.4
-    height: 672.6
+    x: 7.2000003
+    y: 80.8
+    width: 287
+    height: 663
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 4888ffff6688ffff2689ffff6a89ffff8889ffff488affff0a8bffff288bffffe88bffffb08cffffce8cffff8e8dffff5c8effff7a8effff3a8fffff6890ffff9890ffffee91ffff0c92ffffcc92ffff7e93ffff9c93ffff5c94ffffae96ffffcc96ffff8c97ffffae98ffffcc98ffff8c99ffffe299ffff009affffc09affff64a2ffff82a2ffff42a3ffff56a6ffff74a6ffff34a7ffff28aaffff46aaffff06abffffa0afffffbeafffff20b1ffff54b1ffff72b1ffffa2b2ffffe0b5ffff36b7ffff
+      m_ExpandedIDs: 90f6ffffaef6ffffe8f6ffff7cfaffff5cfbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Player
-        m_OriginalName: Player
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 43568
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 9}
       m_SearchString: 
@@ -1972,10 +1973,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 290.4
-    y: 73.6
-    width: 532.4
-    height: 672.6
+    x: 295.2
+    y: 80.8
+    width: 528.4
+    height: 663
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: ea64c683ffb3a2346b79d1e900754c46
@@ -1988,9 +1989,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.042507596, y: -1.0241551, z: -0.2042007}
+    m_Target: {x: -15.004325, y: -50.557243, z: 0}
     speed: 2
-    m_Value: {x: 0.042507596, y: -1.0241551, z: -0.2042007}
+    m_Value: {x: -15.004325, y: -50.557243, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -2041,9 +2042,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 2.568653
+    m_Target: 0.53140336
     speed: 2
-    m_Value: 2.568653
+    m_Value: 0.53140336
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -2088,10 +2089,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 767.2
-    width: 871
-    height: 313.80005
+    x: 7.2000003
+    y: 764.8
+    width: 864.6
+    height: 309
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -2119,9 +2120,9 @@ MonoBehaviour:
     m_IsLocked: 1
   m_FolderTreeState:
     scrollPos: {x: 0, y: 442.19995}
-    m_SelectedIDs: 7e920000
-    m_LastClickedID: 37502
-    m_ExpandedIDs: 0000000026920000289200002a9200002c9200002e92000030920000329200003492000036920000389200003a9200003c920000449200006e920000
+    m_SelectedIDs: 2e480000
+    m_LastClickedID: 18478
+    m_ExpandedIDs: 00000000ce470000d0470000d2470000d4470000d6470000d8470000da470000dc470000de470000e0470000e2470000e4470000e6470000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2149,7 +2150,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000026920000289200002a9200002c9200002e92000030920000329200003492000036920000389200003a9200003c920000
+    m_ExpandedIDs: 00000000ce470000d0470000d2470000d4470000d6470000d8470000da470000dc470000de470000e0470000e2470000e4470000e6470000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2176,7 +2177,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 943700005c3700007c3700006238000076370000d8390000583800006e370000ba370000e2370000943e000010370000b034000096fd00008636000018c30100883d0000c4791500164200001a290f00bc410000ae410000c24100001a450000e446000042520000a0530000685200006453000020d60400b2b90200145400005a5e0000e0550000cc5e00000a5b0300568e0000a6bb07001a5a0000b2620000f45700004259000046610000fc6b000086600000606d0000aa6100005e620000185f0000125f00007a640000c65c0000ce650000e86a0000c45c0000f25f0000f260000086660000ac6500007269000032650000643d000058ae0000b2ea0000f65b00004afa0000f8750100e4c600004eae0200d8dd00000ac50000e4d90000ecd90000a45c000096ce0100c4b20100c2b201000000000082520300c6cb02007ac90900868f0500024107000841070020710000406b000066680500e46b00006a6805006868050058e901009818020094d8010098fd0400940b02002c1405002adc0100ae4402000aee010092790000a2790000f4930200a67900007a7802001a6c0200b6990200ae7e06008e1e0900265e0400c0bb0a006c752800969200004c920000289200005c7a0300569b0300ce7d00007a020100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -2225,10 +2226,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 767.2
-    width: 871
-    height: 313.80005
+    x: 7.2000003
+    y: 764.8
+    width: 864.6
+    height: 309
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &22
 MonoBehaviour:
@@ -2257,7 +2258,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -28592
+  m_LastSelectedObjectID: -4722
 --- !u!114 &23
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -2278,10 +2279,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 872
-    y: 767.2
-    width: 566
-    height: 313.80005
+    x: 872.8
+    y: 764.8
+    width: 562
+    height: 309
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -2296,22 +2297,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/GameFolder/Scripts/Abstract
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/GameFolder/Scripts/Abstract
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\Menethil\Desktop\UnityProjects\TTD-Unity\TTD-Unity-2D
   m_LockTracker:
     m_IsLocked: 1
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 490.19995}
-    m_SelectedIDs: 84920000
-    m_LastClickedID: 37508
-    m_ExpandedIDs: 0000000026920000289200002a9200002c9200002e92000030920000329200003492000036920000389200003a9200003c920000449200006e920000
+    scrollPos: {x: 0, y: 367}
+    m_SelectedIDs: 20480000
+    m_LastClickedID: 18464
+    m_ExpandedIDs: 00000000ce470000d0470000d2470000d4470000d6470000d8470000da470000dc470000de470000e0470000e2470000e4470000e64700001e48000020480000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2339,7 +2340,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000026920000289200002a9200002c9200002e92000030920000329200003492000036920000389200003a9200003c920000
+    m_ExpandedIDs: 00000000ce470000d0470000d2470000d4470000d6470000d8470000da470000dc470000de470000e0470000e2470000e4470000e6470000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2415,10 +2416,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1440
-    y: 73.6
-    width: 607
-    height: 1007.4
+    x: 1436.8
+    y: 80.8
+    width: 603
+    height: 993
   m_ViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
@@ -2502,10 +2503,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 824.8
-    y: 73.6
-    width: 613.2
-    height: 672.6
+    x: 825.60004
+    y: 80.8
+    width: 609.19995
+    height: 663
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames:
   - UnityEditor.DeviceSimulation.SimulatorWindow
@@ -2551,23 +2552,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 613.2
-      height: 651.6
-    m_Scale: {x: 0.6363281, y: 0.6363281}
-    m_Translation: {x: 306.6, y: 325.8}
+      width: 609.19995
+      height: 642
+    m_Scale: {x: 0.6269531, y: 0.6269531}
+    m_Translation: {x: 304.59998, y: 321}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -481.8269
+      x: -485.8417
       y: -512
-      width: 963.6538
+      width: 971.6834
       height: 1024
     m_MinimalGUI: 1
-  m_defaultScale: 0.6363281
-  m_LastWindowPixelSize: {x: 766.5, y: 840.75}
+  m_defaultScale: 0.6269531
+  m_LastWindowPixelSize: {x: 761.49994, y: 828.75}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 00000000000000000000
